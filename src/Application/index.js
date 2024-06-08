@@ -1,5 +1,6 @@
 import React from 'react';
-import Header from "./header";
+import Header from "./header/header";
+import Footer from "./footer/footer";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
         <div >
             <Header />
             <h1>My page</h1>
+            <Footer />
         </div>
     );
 }

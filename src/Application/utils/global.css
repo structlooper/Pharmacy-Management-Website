@@ -51,6 +51,19 @@
     display: none;
 }
 
+.theme-anchor{
+    text-decoration: none;
+    color: white;
+}
+
+.input-group-text {
+    background-color: transparent;
+    border: none;
+}
+
+.w-res-50{
+    width: 50%;
+}
 @media (max-width: 1024px) and (max-height: 1366px) {
 
     .show_mobile_screen {

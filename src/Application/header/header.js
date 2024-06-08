@@ -4,8 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavDropdown } from 'react-bootstrap';
 import {FaAlignRight} from "react-icons/fa";
-import {bindState} from "./utils/globalFunctions";
-import MobileMenu from "./header/MobileMenu";
+import {bindState} from "../utils/globalFunctions";
+import MobileMenu from "./MobileMenu";
 
 function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
