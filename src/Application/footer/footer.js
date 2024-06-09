@@ -18,7 +18,7 @@ const Footer = () => {
     }, []);
     return (
         <footer className="page-footer font-small blue pt-4 btn-maroon">
-            <div className="container ps-lg-5 pb-lg-5 pb-md-5 pb-4">
+            <div className="container  pb-lg-5 pb-md-5 pb-4">
                 <div className="row">
                     <div className="col-md-9 col-lg-10 mt-md-0 mt-3">
                         <h2>Get the latest from us</h2>
@@ -47,7 +47,7 @@ const Footer = () => {
                                  src="https://joinpomegranate.com/wp-content/uploads/2023/07/Logo_White.svg"
                                   alt="" className={"img-fluid"} />
                         </h5>
-                        <h6 className="">
+                        <h6 className="mt-4">
                             <a
                             href="tel:813-419-1189" className={"theme-anchor"}>813-419-1189</a>
                         </h6>

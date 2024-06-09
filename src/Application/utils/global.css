@@ -64,6 +64,22 @@
 .w-res-50{
     width: 50%;
 }
+.w-res-75{
+    width: 75%;
+}
+
+.maroon {
+    color: #84012A ;
+}
+.bg-maroon {
+    background-color: #84012A ;
+}
+.bg-ltn-maroon {
+    background-color: #D31A53 ;
+}
+.ltn-maroon {
+    color: #D31A53 ;
+}
 @media (max-width: 1024px) and (max-height: 1366px) {
 
     .show_mobile_screen {

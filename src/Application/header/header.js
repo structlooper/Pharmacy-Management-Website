@@ -13,7 +13,7 @@ function Header() {
     return (
         <>
             <Navbar  expand="lg" className="header-color">
-                <Container className="px-lg-5 p-2">
+                <Container className=" p-2">
                     <Navbar.Brand href="#home">
                         <img
                             width="189"
