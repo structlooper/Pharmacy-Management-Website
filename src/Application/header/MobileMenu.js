@@ -77,10 +77,10 @@ const MobileMenu = ({ menuState }) => {
                                     <Nav className="ms-auto">
                                         <div className="row mt-5">
                                             <div className="col-6">
-                                                <button className="btn btn-black px-4 py-2">Member Login</button>
+                                                <a href={"https://phr.charmtracker.com/login.sas?FACILITY_ID=3a3047be28b32bf917742bc2eb330fe2af97a3fb48399b0e98ee2e5ce9d5cc8ac81b440bc8a53a00"} className="btn btn-black px-2 px-lg-4 py-2">Member Login</a>
                                             </div>
                                             <div className="col-6">
-                                                <button className="btn btn-black px-4 py-2">Get Started</button>
+                                                <a href={"https://joinpomegranate.com/membership/"} className="btn btn-black px-4 py-2">Get Started</a>
                                             </div>
                                         </div>
                                     </Nav>
