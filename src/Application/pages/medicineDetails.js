@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import OurPlans from "../components/ourPlans";
 import ImageWithSideIconContents from "../components/imageWithSideIconContents";
@@ -6,7 +6,31 @@ import {FaMoneyBill, FaPrescription} from "react-icons/fa";
 
 const MedicineDetails = () => {
     const { suggestion } = useParams();
+    const [medDetails, setMedDetails] = useState(null);
 
+    React.useEffect(() => {
+        getMedicationFromThirdPartyApi().then(res => setMedDetails(res))
+    },[])
+
+    const getMedicationFromThirdPartyApi = () => {
+        return new Promise(resolve => {
+            const requestOptions = {
+                method: "GET",
+                redirect: "follow"
+              };
+              
+              fetch("https://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?medication_name="+suggestion, requestOptions)
+                .then((response) => response.json())
+                .then((result) => {
+                    resolve(result.results[0]);
+                })
+                .catch((error) => {
+                    console.error(error)
+                    resolve(null);
+                });
+        })
+        
+    }
     const BadgeTitleContent = ({ title, points }) => {
         return  <div className={"mt-4"}>
             <h6 style={{ color:'#808080', fontSize:15 }}>{title}</h6>
@@ -25,12 +49,17 @@ const MedicineDetails = () => {
 
         </div>
     }
+
+    if(medDetails === null)
+        return <h1>loading</h1>
+
+    console.log(medDetails)
     return (
         <div>
             <div className="container p-lg-5 pt-5 pb-3">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-12">
-                        <h2 className={"maroon"}>{suggestion}</h2>
+                        <h2 className={"maroon"}>{medDetails.medication_name}</h2>
                         <div className="row">
                             <div className="col-auto">
                                 <p>
@@ -62,20 +91,20 @@ const MedicineDetails = () => {
                     <div className="col-lg-6 col-md-6 col-12 pt-5 pt-lg-0 pt-md-0">
                         <div className="card shadow p-4 py-5">
                             <h4 className={"maroon"}>
-                                {suggestion}
+                                {medDetails.medication_name}
                             </h4>
 
                             <ul className="horizontal-list mb-0">
-                                <li>Tablet</li>
+                                <li>{medDetails.form}</li>
                                 <li>•</li>
-                                <li>100 mg</li>
+                                <li>{medDetails.strength}</li>
                                 <li>•</li>
-                                <li>30 count</li>
+                                <li>{medDetails.pill_nonpill}</li>
                             </ul>
 
                             <hr className={"mb-0"}/>
-                            <BadgeTitleContent title={"From"} points={[
-                                'Tablet'
+                            <BadgeTitleContent title={"Form"} points={[
+                                medDetails.form
                             ]} />
                             <BadgeTitleContent title={"Strength"} points={[
                                 '25mg',
