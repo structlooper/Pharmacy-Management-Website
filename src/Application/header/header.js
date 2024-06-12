@@ -14,7 +14,7 @@ function Header() {
         <>
             <Navbar  expand="lg" className="header-color">
                 <Container className=" p-2">
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="https://joinpomegranate.com/">
                         <img
                             width="189"
                             height="29"

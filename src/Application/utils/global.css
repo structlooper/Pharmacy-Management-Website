@@ -4,6 +4,9 @@ body {
     font-family: 'Martel Sans', Sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bolder;
+}
 .header-color{
     background-color: #FFE7E6;
 }
@@ -47,7 +50,17 @@ body {
 }
 .btn-orange{
     background-color: #FF6666 ;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 8%;
+    padding-right: 8%;
     color: white;
+}
+.p-2-5{
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .btn-maroon:hover{
     background-color: #84012A ;
@@ -109,6 +122,14 @@ body {
     /* width: 120px; */
     padding: 5px 15px;
     background-color: #FBE8E7;
+    border-radius: 4px;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+.p-badge-selected {
+    /* width: 120px; */
+    padding: 5px 15px;
+    background-color: #FBE8E7;
+    border: 1px solid ;
     border-radius: 4px;
     white-space: nowrap; /* Prevent text from wrapping */
 }

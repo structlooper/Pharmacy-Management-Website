@@ -25,13 +25,15 @@ const handleInputChange = (e) => {
     };
 
     const handleSuggestionClick = (suggestion) => {
-        setQuery(suggestion);
+        setQuery(suggestion['label']);
         setSuggestions([]);
-        navigate(`/medicineDetails/${suggestion['Representative Product SKU']}`);
+        window.location.assign(`/medicineDetails/${suggestion['Representative Product SKU']}`);
+
+        // navigate(`/medicineDetails/${suggestion['Representative Product SKU']}`);
     };
 
     return (
-        <div className="search-box ">
+        <div className=" ">
             <FormControl
                 type="text"
                 placeholder="Search by brand name, generic name, or by health condition..."
@@ -45,6 +47,7 @@ const handleInputChange = (e) => {
                         <ListGroup.Item
                             key={index}
                             onClick={() => handleSuggestionClick(suggestion)}
+                            style={{ cursor:'pointer' }}
                         >
                             {suggestion['Label'] + ' . ' + suggestion['Form']}
                         </ListGroup.Item>
