@@ -79,8 +79,12 @@ const MedicineDetails = () => {
         </div>
     }
 
-    if(medDetails === null)
-        return <h1>loading</h1>
+    if (medDetails === null)
+        return (
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
+                <h1>loading...</h1>
+            </div>
+        );
 
     return (
         <div>
@@ -98,7 +102,7 @@ const MedicineDetails = () => {
                             <div className="col-auto">
                                 <p>
                                     <FaMoneyBill size={30} color={'#FF6666'} style={{ borderRadius:100, backgroundColor:'#FBE8E7', padding:"2%" }} />
-                                    <span style={{ fontSize:15 }} className={"text-muted"}> Included with {includedPlan['plans included'] === '5$,10$' ? '$5 and $10 Copay' : '$5 Copay'}</span>
+                                    <span style={{ fontSize:15 }} className={"text-muted"}> Included with {(includedPlan !== null && includedPlan !== undefined) && includedPlan['plans included'] === '5$,10$' ? '$5 and $10 Copay' : '$5 Copay'}</span>
                                 </p>
                             </div>
                         </div>
@@ -149,7 +153,7 @@ const MedicineDetails = () => {
             </div>
             <hr />
             <div className="container pt-3">
-                <OurPlans planMedication={includedPlan['plans included']} />
+                <OurPlans planMedication={(includedPlan !== null && includedPlan !== undefined) && includedPlan['plans included']} />
             </div>
             <div className={"mt-5 py-4"}  style={{backgroundColor: '#FEE7E7'}}>
             <div className="container">
