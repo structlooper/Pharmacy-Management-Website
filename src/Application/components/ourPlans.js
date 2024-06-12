@@ -1,7 +1,6 @@
 import React from 'react';
 
 const OurPlans = ({ planMedication = 'both' }) => {
-    console.log('plan', planMedication)
     if (planMedication === "5$"){
         return (
             <div className="row">
