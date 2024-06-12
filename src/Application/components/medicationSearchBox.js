@@ -49,7 +49,7 @@ const handleInputChange = (e) => {
                             onClick={() => handleSuggestionClick(suggestion)}
                             style={{ cursor:'pointer' }}
                         >
-                            {suggestion['Label'] + ' . ' + suggestion['Form']}
+                            {suggestion['Label']}
                         </ListGroup.Item>
                     ))}
                 </ListGroup>

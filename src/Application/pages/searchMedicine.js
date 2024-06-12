@@ -9,12 +9,12 @@ const SearchMedicine = () => {
         <section>
             <div style={{backgroundColor: '#FEE7E7'}}>
                 <DynamicHead title={"Pomegranate Pharmacy"} />
-                <section className=" text-lg-center" style={{paddingTop: "5%", paddingBottom: "9%"}}>
+                <section className="container text-lg-center" style={{paddingTop: "5%", paddingBottom: "9%"}}>
                     <div className="row justify-content-lg-center align-items-end">
                         <div className="col-lg-2 col-md-auto col-sm-12"/>
                         <div className="col-lg-8 col-md-9 col-sm-12">
                             <h6 className="maroon">IN COLLABORATION WITH</h6>
-                            <img src={require('../asserts/banner.png')} alt="banner" className="img-fluid my-5" width={300}
+                            <img src={require('../asserts/banner.png')} alt="banner" className="img-fluid my-lg-5 my-3" width={300}
                                  height={100}/>
                             <h1 className={"mt-3 maroon w-res-75 mx-auto"}>Affordable medication at the lowest possible
                                 price</h1>

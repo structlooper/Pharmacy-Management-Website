@@ -1,7 +1,7 @@
 const localMedicationList = [
     {
         "Representative Product SKU": "68180028806",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Abacavir / Lamivudine 600mg/300mg",
         "Medication Name": "Abacavir / Lamivudine",
         "Strength": "600mg-300mg",
@@ -18,7 +18,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72241002805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Acyclovir 200mg Capsule",
         "Medication Name": "Acyclovir",
         "Strength": "200mg",
@@ -35,7 +35,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69117001801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Acyclovir 400mg",
         "Medication Name": "Acyclovir",
         "Strength": "400mg",
@@ -52,7 +52,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591554310",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Allopurinol 100mg",
         "Medication Name": "Allopurinol",
         "Strength": "100mg",
@@ -69,7 +69,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "53489015710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Allopurinol 300mg",
         "Medication Name": "Allopurinol",
         "Strength": "300mg",
@@ -86,7 +86,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862073205",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amiodarone HCl 200mg",
         "Medication Name": "Amiodarone HCl",
         "Strength": "200mg",
@@ -103,7 +103,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "42494030903",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amiodarone HCl 400mg",
         "Medication Name": "Amiodarone HCl",
         "Strength": "400mg",
@@ -120,7 +120,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729017501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amitriptyline 100mg",
         "Medication Name": "Amitriptyline",
         "Strength": "100mg",
@@ -137,7 +137,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729017117",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amitriptyline 10mg",
         "Medication Name": "Amitriptyline",
         "Strength": "10mg",
@@ -154,7 +154,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729017601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amitriptyline 150mg",
         "Medication Name": "Amitriptyline",
         "Strength": "150mg",
@@ -171,7 +171,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729017217",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amitriptyline 25mg",
         "Medication Name": "Amitriptyline",
         "Strength": "25mg",
@@ -188,7 +188,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729017317",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amitriptyline 50mg",
         "Medication Name": "Amitriptyline",
         "Strength": "50mg",
@@ -205,7 +205,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729017401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amitriptyline 75mg",
         "Medication Name": "Amitriptyline",
         "Strength": "75mg",
@@ -222,7 +222,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877019910",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine 10mg",
         "Medication Name": "Amlodipine",
         "Strength": "10mg",
@@ -239,7 +239,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877019710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine 2.5mg",
         "Medication Name": "Amlodipine",
         "Strength": "2.5mg",
@@ -256,7 +256,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180072003",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine 5mg",
         "Medication Name": "Amlodipine",
         "Strength": "5mg",
@@ -273,7 +273,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180046301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine Besy-Benazepril HCl 5-40mg Capsule",
         "Medication Name": "Amlodipine Besy-Benazepril HCl",
         "Strength": "5-40mg",
@@ -290,7 +290,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111034105",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine Besylate-Benazepril HCl 10mg-20mg",
         "Medication Name": "Amlodipine Besylate-Benazepril HCl",
         "Strength": "10mg-20mg",
@@ -307,7 +307,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111058601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine Besylate-Benazepril HCl 10mg-40mg",
         "Medication Name": "Amlodipine Besylate-Benazepril HCl",
         "Strength": "10mg-40mg",
@@ -324,7 +324,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111033801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine Besylate-Benazepril HCl 2.5mg-10mg",
         "Medication Name": "Amlodipine Besylate-Benazepril HCl",
         "Strength": "2.5mg-10mg",
@@ -341,7 +341,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111033905",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine Besylate-Benazepril HCl 5mg-10mg",
         "Medication Name": "Amlodipine Besylate-Benazepril HCl",
         "Strength": "5mg-10mg",
@@ -358,7 +358,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111034001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine Besylate-Benazepril HCl 5mg-20mg",
         "Medication Name": "Amlodipine Besylate-Benazepril HCl",
         "Strength": "5mg-20mg",
@@ -375,7 +375,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62332020630",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine Besylate-Valsartan 10-160mg Tablet",
         "Medication Name": "Amlodipine Besylate-Valsartan",
         "Strength": "10-160mg",
@@ -392,7 +392,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62332020830",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine Besylate-Valsartan 10-320mg Tablet",
         "Medication Name": "Amlodipine Besylate-Valsartan",
         "Strength": "10-320mg",
@@ -409,7 +409,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62332020530",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine Besylate-Valsartan 5-160mg Tablet",
         "Medication Name": "Amlodipine Besylate-Valsartan",
         "Strength": "5-160mg",
@@ -426,7 +426,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62332020730",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amlodipine Besylate-Valsartan 5-320mg Tablet",
         "Medication Name": "Amlodipine Besylate-Valsartan",
         "Strength": "5-320mg",
@@ -443,7 +443,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237003005",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amoxicillin (Trihydrate) 250mg",
         "Medication Name": "Amoxicillin (Trihydrate)",
         "Strength": "250mg",
@@ -460,7 +460,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237002801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amoxicillin (Trihydrate) 500mg",
         "Medication Name": "Amoxicillin",
         "Strength": "500mg",
@@ -477,7 +477,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862001501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amoxicillin (Trihydrate) 875mg",
         "Medication Name": "Amoxicillin (Trihydrate)",
         "Strength": "875mg",
@@ -494,7 +494,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093227534",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amoxicillin / Clavulanate 875/125mg",
         "Medication Name": "Amoxicillin / Clavulanate",
         "Strength": "875mg-125mg",
@@ -511,7 +511,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "42571016030",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amoxicillin & Clavulanate 250mg-125mg",
         "Medication Name": "Amoxicillin & Clavulanate",
         "Strength": "250mg-125mg",
@@ -528,7 +528,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "42571016101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amoxicillin & Clavulanate 500-125mg",
         "Medication Name": "Amoxicillin & Clavulanate",
         "Strength": "500mg-125mg",
@@ -545,7 +545,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862001705",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Amoxicillin 500mg Capsule",
         "Medication Name": "Amoxicillin",
         "Strength": "500mg",
@@ -562,7 +562,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00113027468",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Aspirin 81mg Tablet Chewable",
         "Medication Name": "Aspirin",
         "Strength": "81mg",
@@ -579,7 +579,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093075301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Atenolol 100mg",
         "Medication Name": "Atenolol",
         "Strength": "100mg",
@@ -596,7 +596,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093078710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Atenolol 25mg",
         "Medication Name": "Atenolol",
         "Strength": "25mg",
@@ -613,7 +613,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093075210",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Atenolol 50mg",
         "Medication Name": "Atenolol",
         "Strength": "50mg",
@@ -630,7 +630,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180063509",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Atorvastatin 10mg",
         "Medication Name": "Atorvastatin",
         "Strength": "10mg",
@@ -647,7 +647,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180063602",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Atorvastatin 20mg",
         "Medication Name": "Atorvastatin",
         "Strength": "20mg",
@@ -664,7 +664,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180063702",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Atorvastatin 40mg",
         "Medication Name": "Atorvastatin",
         "Strength": "40mg",
@@ -681,7 +681,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180063802",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Atorvastatin 80mg",
         "Medication Name": "Atorvastatin",
         "Strength": "80mg",
@@ -698,7 +698,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180016006",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Azithromycin 250mg",
         "Medication Name": "Azithromycin",
         "Strength": "250mg",
@@ -715,7 +715,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180016106",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Azithromycin 500mg",
         "Medication Name": "Azithromycin",
         "Strength": "500mg",
@@ -732,7 +732,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180016206",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Azithromycin 600mg",
         "Medication Name": "Azithromycin",
         "Strength": "600mg",
@@ -749,7 +749,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69367031401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "B-Complex W/C & Folic Acid 1mg Capsule",
         "Medication Name": "B-Complex W/C & Folic Acid",
         "Strength": "1mg",
@@ -766,7 +766,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00115101003",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Baclofen 10mg",
         "Medication Name": "Baclofen",
         "Strength": "10mg",
@@ -783,7 +783,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00115101203",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Baclofen 20mg",
         "Medication Name": "Baclofen",
         "Strength": "20mg",
@@ -800,7 +800,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00115101101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Baclofen 5mg",
         "Medication Name": "Baclofen",
         "Strength": "5mg",
@@ -817,7 +817,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862011601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benazepril HCl 10mg",
         "Medication Name": "Benazepril HCl",
         "Strength": "10mg",
@@ -834,7 +834,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862011701",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benazepril HCl 20mg",
         "Medication Name": "Benazepril HCl",
         "Strength": "20mg",
@@ -851,7 +851,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862011801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benazepril HCl 40mg",
         "Medication Name": "Benazepril HCl",
         "Strength": "40mg",
@@ -868,7 +868,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43547033510",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benazepril HCl 5mg",
         "Medication Name": "Benazepril HCl",
         "Strength": "5mg",
@@ -885,7 +885,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00185032501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benazepril-Hydrochlorothiazide 10-12.5mg Tablet",
         "Medication Name": "Benazepril-Hydrochlorothiazide",
         "Strength": "10-12.5mg",
@@ -902,7 +902,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00185021101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benazepril-Hydrochlorothiazide 20-12.5mg Tablet",
         "Medication Name": "Benazepril-Hydrochlorothiazide",
         "Strength": "20-12.5mg",
@@ -919,7 +919,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00185027701",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benazepril-Hydrochlorothiazide 20-25mg Tablet",
         "Medication Name": "Benazepril-Hydrochlorothiazide",
         "Strength": "20-25mg",
@@ -936,7 +936,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00185023601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benazepril-Hydrochlorothiazide 5-6.25mg Tablet",
         "Medication Name": "Benazepril-Hydrochlorothiazide",
         "Strength": "5-6.25mg",
@@ -953,7 +953,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "42806071405",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benzonatate 100mg",
         "Medication Name": "Benzonatate",
         "Strength": "100mg",
@@ -970,7 +970,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "42806071505",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benzonatate 200mg",
         "Medication Name": "Benzonatate",
         "Strength": "200mg",
@@ -987,7 +987,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69315013710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benztropine Mesylate 1mg",
         "Medication Name": "Benztropine Mesylate",
         "Strength": "1mg",
@@ -1004,7 +1004,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69315013801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Benztropine Mesylate 2mg",
         "Medication Name": "Benztropine Mesylate",
         "Strength": "2mg",
@@ -1021,7 +1021,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300012701",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bisoprolol Fumarate 10mg",
         "Medication Name": "Bisoprolol Fumarate",
         "Strength": "10mg",
@@ -1038,7 +1038,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862008601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bisoprolol Fumarate 5mg",
         "Medication Name": "Bisoprolol Fumarate",
         "Strength": "5mg",
@@ -1055,7 +1055,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68382052501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bumetanide 0.5mg",
         "Medication Name": "Bumetanide",
         "Strength": "0.5mg",
@@ -1072,7 +1072,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00185012901",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bumetanide 1mg",
         "Medication Name": "Bumetanide",
         "Strength": "1mg",
@@ -1089,7 +1089,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00185013001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bumetanide 2mg Tablet",
         "Medication Name": "Bumetanide",
         "Strength": "2mg",
@@ -1106,7 +1106,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60505015701",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bupropion HCl 100mg",
         "Medication Name": "Bupropion HCl",
         "Strength": "100mg",
@@ -1123,7 +1123,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "23155019101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bupropion HCl 75mg",
         "Medication Name": "Bupropion HCl",
         "Strength": "75mg",
@@ -1140,7 +1140,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591354360",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bupropion HCl ER (Smoking Det) 150mg Tablet Extended Release",
         "Medication Name": "Bupropion HCl ER (Smoking Det)",
         "Strength": "150mg",
@@ -1157,7 +1157,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591354005",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bupropion SR 100mg",
         "Medication Name": "Bupropion SR",
         "Strength": "100mg",
@@ -1174,7 +1174,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43547029010",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bupropion SR 200mg",
         "Medication Name": "Bupropion SR",
         "Strength": "200mg",
@@ -1191,7 +1191,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43547028950",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bupropion SR150mg",
         "Medication Name": "Bupropion SR",
         "Strength": "150mg",
@@ -1208,7 +1208,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180031902",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bupropion XL 150mg",
         "Medication Name": "Bupropion XL",
         "Strength": "150mg",
@@ -1225,7 +1225,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180032002",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Bupropion XL 300mg",
         "Medication Name": "Bupropion XL",
         "Strength": "300mg",
@@ -1242,7 +1242,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093005405",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Buspirone HCL 10mg",
         "Medication Name": "Buspirone HCL",
         "Strength": "10mg",
@@ -1259,7 +1259,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093100305",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Buspirone HCL 15mg",
         "Medication Name": "Buspirone HCL",
         "Strength": "15mg",
@@ -1276,7 +1276,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238111906",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Buspirone HCl 30mg",
         "Medication Name": "Buspirone HCl",
         "Strength": "30mg",
@@ -1293,7 +1293,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093005305",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Buspirone HCL 5mg",
         "Medication Name": "Buspirone HCL",
         "Strength": "5mg",
@@ -1310,7 +1310,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238111601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Buspirone HCl 7.5mg",
         "Medication Name": "Buspirone HCl",
         "Strength": "7.5mg",
@@ -1327,7 +1327,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62332034390",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Candesartan Cilexetil 16mg Tablet",
         "Medication Name": "Candesartan Cilexetil",
         "Strength": "16mg",
@@ -1344,7 +1344,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00378323293",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Candesartan Cilexetil 32mg Tablet",
         "Medication Name": "Candesartan Cilexetil",
         "Strength": "32mg",
@@ -1361,7 +1361,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00378322477",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Candesartan Cilexetil 4mg Tablet",
         "Medication Name": "Candesartan Cilexetil",
         "Strength": "4mg",
@@ -1378,7 +1378,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00378322577",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Candesartan Cilexetil 8mg Tablet",
         "Medication Name": "Candesartan Cilexetil",
         "Strength": "8mg",
@@ -1395,7 +1395,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62559066090",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Candesartan Cilexetil-HCTZ 16-12.5mg Tablet",
         "Medication Name": "Candesartan Cilexetil-HCTZ",
         "Strength": "16-12.5mg",
@@ -1412,7 +1412,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62559066190",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Candesartan Cilexetil-HCTZ 32-12.5mg Tablet",
         "Medication Name": "Candesartan Cilexetil-HCTZ",
         "Strength": "32-12.5mg",
@@ -1429,7 +1429,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62559066290",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Candesartan Cilexetil-HCTZ 32-25mg Tablet",
         "Medication Name": "Candesartan Cilexetil-HCTZ",
         "Strength": "32-25mg",
@@ -1446,7 +1446,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "27241016301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Captopril 100mg Tablet",
         "Medication Name": "Captopril",
         "Strength": "100mg",
@@ -1463,7 +1463,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69292052201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Captopril 12.5mg Tablet",
         "Medication Name": "Captopril",
         "Strength": "12.5mg",
@@ -1480,7 +1480,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "27241016101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Captopril 25mg Tablet",
         "Medication Name": "Captopril",
         "Strength": "25mg",
@@ -1497,7 +1497,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69292052601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Captopril 50mg Tablet",
         "Medication Name": "Captopril",
         "Strength": "50mg",
@@ -1514,7 +1514,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16571082709",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Captopril-Hydrochlorothiazide 25-15mg Tablet",
         "Medication Name": "Captopril-Hydrochlorothiazide",
         "Strength": "25-15mg",
@@ -1531,7 +1531,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16571082809",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Captopril-Hydrochlorothiazide 25-25mg Tablet",
         "Medication Name": "Captopril-Hydrochlorothiazide",
         "Strength": "25-25mg",
@@ -1548,7 +1548,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16571082909",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Captopril-Hydrochlorothiazide 50-15mg Tablet",
         "Medication Name": "Captopril-Hydrochlorothiazide",
         "Strength": "50-15mg",
@@ -1565,7 +1565,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16571083009",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Captopril-Hydrochlorothiazide 50-25mg Tablet",
         "Medication Name": "Captopril-Hydrochlorothiazide",
         "Strength": "50-25mg",
@@ -1582,7 +1582,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59746078901",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Carbamazepine ER 100mg Tablet Extended Release",
         "Medication Name": "Carbamazepine ER",
         "Strength": "100mg",
@@ -1599,7 +1599,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59746079001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Carbamazepine ER 200mg Tablet Extended Release",
         "Medication Name": "Carbamazepine ER",
         "Strength": "200mg",
@@ -1616,7 +1616,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59746079101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Carbamazepine ER 400mg Tablet Extended Release",
         "Medication Name": "Carbamazepine ER",
         "Strength": "400mg",
@@ -1633,7 +1633,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62756051788",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Carbidopa & Levodopa 10mg-100mg",
         "Medication Name": "Carbidopa-Levodopa",
         "Strength": "10mg-100mg",
@@ -1650,7 +1650,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093970210",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Carbidopa & Levodopa 25/100mg",
         "Medication Name": "Carbidopa & Levodopa",
         "Strength": "25mg-100mg",
@@ -1667,7 +1667,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093729505",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Carvedilol 12.5mg",
         "Medication Name": "Carvedilol",
         "Strength": "12.5mg",
@@ -1684,7 +1684,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093729605",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Carvedilol 25mg",
         "Medication Name": "Carvedilol",
         "Strength": "25mg",
@@ -1701,7 +1701,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093005105",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Carvedilol 3.125mg",
         "Medication Name": "Carvedilol",
         "Strength": "3.125mg",
@@ -1718,7 +1718,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093013505",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Carvedilol 6.25mg",
         "Medication Name": "Carvedilol",
         "Strength": "6.25mg",
@@ -1735,7 +1735,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237009960",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Cefdinir 300mg",
         "Medication Name": "Cefdinir",
         "Strength": "300mg",
@@ -1752,7 +1752,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093716505",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Celecoxib 100mg",
         "Medication Name": "Celecoxib",
         "Strength": "100mg",
@@ -1769,7 +1769,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "42571014405",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Celecoxib 200mg",
         "Medication Name": "Celecoxib",
         "Strength": "200mg",
@@ -1786,7 +1786,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180012102",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Cephalexin 250mg",
         "Medication Name": "Cephalexin",
         "Strength": "250mg",
@@ -1803,7 +1803,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180012202",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Cephalexin 500mg",
         "Medication Name": "Cephalexin",
         "Strength": "500mg",
@@ -1820,7 +1820,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877054488",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Cephalexin Suspension 125mg/5mL",
         "Medication Name": "Cephalexin",
         "Strength": "125mg/5mL",
@@ -1837,7 +1837,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "58602044540",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Cetirizine 10mg ",
         "Medication Name": "Cetirizine",
         "Strength": "10mg",
@@ -1854,7 +1854,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16571040110",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Cetirizine HCl 5mg",
         "Medication Name": "Cetirizine HCl",
         "Strength": "5mg",
@@ -1871,7 +1871,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "66689034599",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Chlorthalidone 25mg",
         "Medication Name": "Chlorthalidone",
         "Strength": "25mg",
@@ -1888,7 +1888,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162025009",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Chlorthalidone 50mg",
         "Medication Name": "Chlorthalidone",
         "Strength": "50mg",
@@ -1905,7 +1905,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16252051401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ciprofloxacin 250mg",
         "Medication Name": "Ciprofloxacin",
         "Strength": "250mg",
@@ -1922,7 +1922,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00143992801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ciprofloxacin 500mg",
         "Medication Name": "Ciprofloxacin",
         "Strength": "500mg",
@@ -1939,7 +1939,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16252051605",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ciprofloxacin 750mg",
         "Medication Name": "Ciprofloxacin",
         "Strength": "750mg",
@@ -1956,7 +1956,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "13668000905",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Citalopram Hydrobromide 10mg",
         "Medication Name": "Citalopram Hydrobromide",
         "Strength": "10mg",
@@ -1973,7 +1973,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "13668001005",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Citalopram Hydrobromide 20mg",
         "Medication Name": "Citalopram Hydrobromide",
         "Strength": "20mg",
@@ -1990,7 +1990,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "13668001101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Citalopram Hydrobromide 40mg",
         "Medication Name": "Citalopram Hydrobromide",
         "Strength": "40mg",
@@ -2007,7 +2007,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59762501002",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Clindamycin HCL 300mg",
         "Medication Name": "Clindamycin HCL",
         "Strength": "300mg",
@@ -2024,7 +2024,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00228212750",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Clonidine 0.1mg",
         "Medication Name": "Clonidine",
         "Strength": "0.1mg",
@@ -2041,7 +2041,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00228212850",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Clonidine 0.2mg",
         "Medication Name": "Clonidine",
         "Strength": "0.2mg",
@@ -2058,7 +2058,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300013705",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Clonidine 0.3mg",
         "Medication Name": "Clonidine",
         "Strength": "0.3mg",
@@ -2075,7 +2075,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50228012410",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Clopidogrel 75mg",
         "Medication Name": "Clopidogrel",
         "Strength": "75mg",
@@ -2092,7 +2092,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162071009",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Colchicine  0.6mg",
         "Medication Name": "Colchicine ",
         "Strength": "0.6mg",
@@ -2109,7 +2109,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "52817033200",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Cyclobenzaprine 10mg",
         "Medication Name": "Cyclobenzaprine",
         "Strength": "10mg",
@@ -2126,7 +2126,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "52817033050",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Cyclobenzaprine 5mg",
         "Medication Name": "Cyclobenzaprine",
         "Strength": "5mg",
@@ -2143,7 +2143,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093342101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Cyclobenzaprine 7.5mg",
         "Medication Name": "Cyclobenzaprine",
         "Strength": "7.5mg",
@@ -2160,7 +2160,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00480773606",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Darunavir 600mg Tablet",
         "Medication Name": "Darunavir",
         "Strength": "600mg",
@@ -2177,7 +2177,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180059306",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Desvenlafaxine Succinate Extended Release (ER) 100mg",
         "Medication Name": "Desvenlafaxine Succinate Extended Release (ER)",
         "Strength": "100mg",
@@ -2194,7 +2194,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591406030",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Desvenlafaxine Succinate Extended Release (ER) 24HR 25mg (Base Equiv)",
         "Medication Name": "Desvenlafaxine Succinate Extended Release (ER)",
         "Strength": "25mg",
@@ -2211,7 +2211,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180059206",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Desvenlafaxine Succinate Extended Release (ER) 50mg",
         "Medication Name": "Desvenlafaxine Succinate Extended Release (ER)",
         "Strength": "50mg",
@@ -2228,7 +2228,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70954040210",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Dexamethasone 2mg Tablet",
         "Medication Name": "Dexamethasone",
         "Strength": "2mg",
@@ -2245,7 +2245,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60219204301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Dexamethasone 4mg",
         "Medication Name": "Dexamethasone",
         "Strength": "4mg",
@@ -2262,7 +2262,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60219204401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Dexamethasone 6mg Tablet",
         "Medication Name": "Dexamethasone",
         "Strength": "6mg",
@@ -2279,7 +2279,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "61442010310",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diclofenac Sodium ER 75mg",
         "Medication Name": "Diclofenac Sodium ER",
         "Strength": "75mg",
@@ -2296,7 +2296,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591079510",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Dicyclomine 20mg",
         "Medication Name": "Dicyclomine",
         "Strength": "20mg",
@@ -2313,7 +2313,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591079401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Dicyclomine HCl 10mg",
         "Medication Name": "Dicyclomine HCl",
         "Strength": "10mg",
@@ -2330,7 +2330,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00143124010",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Digoxin 125mcg",
         "Medication Name": "Digoxin",
         "Strength": "125mcg",
@@ -2347,7 +2347,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59651043601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Digoxin 62.5mcg Tablet",
         "Medication Name": "Digoxin",
         "Strength": "62.5mcg",
@@ -2359,12 +2359,12 @@ const localMedicationList = [
         "Cost per unit": "$4.5000000",
         "Price Transparency  Manufacturing Cost": "$4.50",
         "Price Transparency  15% Mark Up": "$0.68",
-        "Unit Billing Price (Total Price per unit w/markup) ": "$5.18",
+        "Unit Billing Price (Total Price per unit w/markup) ": "10$.18",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "50228048401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diltiazem HCl 120mg Tablet",
         "Medication Name": "Diltiazem HCl",
         "Strength": "120mg",
@@ -2381,7 +2381,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093031805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diltiazem HCl 30mg Tablet",
         "Medication Name": "Diltiazem HCl",
         "Strength": "30mg",
@@ -2398,7 +2398,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093031901",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diltiazem HCl 60mg Tablet",
         "Medication Name": "Diltiazem HCl",
         "Strength": "60mg",
@@ -2415,7 +2415,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50228048301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diltiazem HCl 90mg Tablet",
         "Medication Name": "Diltiazem HCl",
         "Strength": "90mg",
@@ -2432,7 +2432,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00378606001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diltiazem HCl ER 60mg Capsule Extended Release",
         "Medication Name": "Diltiazem HCl ER",
         "Strength": "60mg",
@@ -2449,7 +2449,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00378609001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diltiazem HCl ER 90mg Capsule Extended Release",
         "Medication Name": "Diltiazem HCl ER",
         "Strength": "90mg",
@@ -2466,7 +2466,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62037069690",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diltiazem HCl Extended Release 120mg Capsule Extended Release",
         "Medication Name": "Diltiazem HCl Extended Release",
         "Strength": "120mg",
@@ -2483,7 +2483,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62037069790",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diltiazem HCl Extended Release 180mg Capsule Extended Release",
         "Medication Name": "Diltiazem HCl Extended Release",
         "Strength": "180mg",
@@ -2500,7 +2500,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62037069890",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diltiazem HCl Extended Release 240mg Capsule Extended Release",
         "Medication Name": "Diltiazem HCl Extended Release",
         "Strength": "240mg",
@@ -2517,7 +2517,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62037070090",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Diltiazem HCl Extended Release 360mg Capsule Extended Release",
         "Medication Name": "Diltiazem HCl Extended Release",
         "Strength": "360mg",
@@ -2534,7 +2534,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300013805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Divalproex Sodium Delayed Release (DR) 125mg",
         "Medication Name": "Divalproex Sodium Delayed Release (DR)",
         "Strength": "125mg",
@@ -2551,7 +2551,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300013905",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Divalproex Sodium Delayed Release (DR) 250mg",
         "Medication Name": "Divalproex Sodium Delayed Release (DR)",
         "Strength": "250mg",
@@ -2568,7 +2568,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300014005",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Divalproex Sodium Delayed Release 500mg",
         "Medication Name": "Divalproex Sodium Delayed Release (DR)",
         "Strength": "500mg",
@@ -2585,7 +2585,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "47335006186",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Dofetilide 125mcg",
         "Medication Name": "Dofetilide",
         "Strength": "125mcg",
@@ -2602,7 +2602,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "47335006286",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Dofetilide 250mcg",
         "Medication Name": "Dofetilide",
         "Strength": "250mcg",
@@ -2619,7 +2619,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "47335006386",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Dofetilide 500mcg",
         "Medication Name": "Dofetilide",
         "Strength": "500mcg",
@@ -2636,7 +2636,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43547027611",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Donepezil 10mg",
         "Medication Name": "Donepezil",
         "Strength": "10mg",
@@ -2653,7 +2653,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43547027511",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Donepezil 5mg",
         "Medication Name": "Donepezil",
         "Strength": "5mg",
@@ -2670,7 +2670,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093207001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxazosin Mesylate 1mg",
         "Medication Name": "Doxazosin Mesylate",
         "Strength": "1mg",
@@ -2687,7 +2687,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093206901",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxazosin Mesylate 2mg",
         "Medication Name": "Doxazosin Mesylate",
         "Strength": "2mg",
@@ -2704,7 +2704,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729021301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxazosin Mesylate 4mg",
         "Medication Name": "Doxazosin Mesylate",
         "Strength": "4mg",
@@ -2721,7 +2721,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60505009600",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxazosin Mesylate 8mg",
         "Medication Name": "Doxazosin Mesylate",
         "Strength": "8mg",
@@ -2738,7 +2738,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238117309",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxepin HCl 100mg",
         "Medication Name": "Doxepin HCl",
         "Strength": "100mg",
@@ -2755,7 +2755,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238116609",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxepin HCl 10mg",
         "Medication Name": "Doxepin HCl",
         "Strength": "10mg",
@@ -2772,7 +2772,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "49884022201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxepin HCl 150mg Capsule",
         "Medication Name": "Doxepin HCl",
         "Strength": "150mg",
@@ -2789,7 +2789,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238117009",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxepin HCl 25mg",
         "Medication Name": "Doxepin HCl",
         "Strength": "25mg",
@@ -2806,7 +2806,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238117109",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxepin HCl 50mg",
         "Medication Name": "Doxepin HCl",
         "Strength": "50mg",
@@ -2823,7 +2823,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238117209",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxepin HCl 75mg",
         "Medication Name": "Doxepin HCl",
         "Strength": "75mg",
@@ -2840,7 +2840,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62135098505",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Doxycycline Hyclate 100mg",
         "Medication Name": "Doxycycline Hyclate",
         "Strength": "100mg",
@@ -2857,7 +2857,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180029407",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Duloxetine Delayed Release (DR) 20mg",
         "Medication Name": "Duloxetine Delayed Release (DR)",
         "Strength": "20mg",
@@ -2874,7 +2874,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180029503",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Duloxetine Delayed Release (DR) 30mg",
         "Medication Name": "Duloxetine Delayed Release (DR)",
         "Strength": "30mg",
@@ -2891,7 +2891,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "27241016430",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Duloxetine Delayed Release 40mg",
         "Medication Name": "Duloxetine Delayed Release (DR)",
         "Strength": "40mg",
@@ -2908,7 +2908,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "64679092503",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Enalapril Maleate 10mg",
         "Medication Name": "Enalapril Maleate",
         "Strength": "10mg",
@@ -2925,7 +2925,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672403703",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Enalapril Maleate 2.5mg",
         "Medication Name": "Enalapril Maleate",
         "Strength": "2.5mg",
@@ -2942,7 +2942,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672404003",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Enalapril Maleate 20mg",
         "Medication Name": "Enalapril Maleate",
         "Strength": "20mg",
@@ -2959,7 +2959,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672403801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Enalapril Maleate 5mg",
         "Medication Name": "Enalapril Maleate",
         "Strength": "5mg",
@@ -2976,7 +2976,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672404601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Enalapril-Hydrochlorothiazide 10-25mg Tablet",
         "Medication Name": "Enalapril-Hydrochlorothiazide",
         "Strength": "10-25mg",
@@ -2993,7 +2993,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672404501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Enalapril-Hydrochlorothiazide 5-12.5mg Tablet",
         "Medication Name": "Enalapril-Hydrochlorothiazide",
         "Strength": "5-12.5mg",
@@ -3010,7 +3010,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729016917",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Escitalopram Oxalate 10mg",
         "Medication Name": "Escitalopram Oxalate",
         "Strength": "10mg",
@@ -3027,7 +3027,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180013601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Escitalopram Oxalate 20mg",
         "Medication Name": "Escitalopram Oxalate",
         "Strength": "20mg",
@@ -3044,7 +3044,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43598050910",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Esomeprazole 20mg",
         "Medication Name": "Esomeprazole",
         "Strength": "20mg",
@@ -3061,7 +3061,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43598051010",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Esomeprazole 40mg",
         "Medication Name": "Esomeprazole",
         "Strength": "40mg",
@@ -3078,7 +3078,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238115409",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ezetimibe 10mg",
         "Medication Name": "Ezetimibe",
         "Strength": "10mg",
@@ -3095,7 +3095,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "58602070515",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Famotidine 10mg",
         "Medication Name": "Famotidine",
         "Strength": "10mg",
@@ -3112,7 +3112,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00172572880",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Famotidine 20mg",
         "Medication Name": "Famotidine",
         "Strength": "20mg",
@@ -3129,7 +3129,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00172572960",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Famotidine 40mg",
         "Medication Name": "Famotidine",
         "Strength": "40mg",
@@ -3146,7 +3146,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462058101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fenofibrate 134mg",
         "Medication Name": "Fenofibrate",
         "Strength": "134mg",
@@ -3163,7 +3163,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "63304044990",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fenofibrate 145mg",
         "Medication Name": "Fenofibrate",
         "Strength": "145mg",
@@ -3180,7 +3180,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70756021590",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fenofibrate 160mg",
         "Medication Name": "Fenofibrate",
         "Strength": "160mg",
@@ -3197,7 +3197,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462058201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fenofibrate 200mg",
         "Medication Name": "Fenofibrate",
         "Strength": "200mg",
@@ -3214,7 +3214,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "63304044330",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fenofibrate 43mg",
         "Medication Name": "Fenofibrate",
         "Strength": "43mg",
@@ -3231,7 +3231,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722059590",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fenofibrate 48mg",
         "Medication Name": "Fenofibrate",
         "Strength": "48mg",
@@ -3248,7 +3248,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70756021490",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fenofibrate 54mg",
         "Medication Name": "Fenofibrate",
         "Strength": "54mg",
@@ -3265,7 +3265,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462058001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fenofibrate 67mg",
         "Medication Name": "Fenofibrate",
         "Strength": "67mg",
@@ -3282,7 +3282,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69230030001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fexofenadine HCl 180mg",
         "Medication Name": "Fexofenadine HCL",
         "Strength": "180mg",
@@ -3299,7 +3299,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111078301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fexofenadine HCl Tab 60mg",
         "Medication Name": "Fexofenadine HCl",
         "Strength": "60mg",
@@ -3316,7 +3316,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43598039090",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Finasteride 1mg",
         "Medication Name": "Finasteride",
         "Strength": "1mg",
@@ -3333,7 +3333,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729009016",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Finasteride 5mg",
         "Medication Name": "Finasteride",
         "Strength": "5mg",
@@ -3350,7 +3350,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00172541211",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fluconazole 150mg",
         "Medication Name": "Fluconazole",
         "Strength": "150mg",
@@ -3367,7 +3367,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67405060403",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fluconazole 200mg",
         "Medication Name": "Fluconazole",
         "Strength": "200mg",
@@ -3384,7 +3384,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43598063230",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fluoxetine 60mg",
         "Medication Name": "Fluoxetine",
         "Strength": "60mg",
@@ -3401,7 +3401,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111015010",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fluoxetine HCl 10mg",
         "Medication Name": "Fluoxetine HCl",
         "Strength": "10mg",
@@ -3418,7 +3418,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43598056601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fluoxetine HCl 20mg",
         "Medication Name": "Fluoxetine HCl",
         "Strength": "20mg",
@@ -3435,7 +3435,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093719805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Fluoxetine HCl 40mg",
         "Medication Name": "Fluoxetine HCl",
         "Strength": "40 mg",
@@ -3452,7 +3452,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51293084610",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Folic Acid Tab 1mg",
         "Medication Name": "Folic Acid",
         "Strength": "1mg",
@@ -3469,7 +3469,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00054429731",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Furosemide 20mg",
         "Medication Name": "Furosemide",
         "Strength": "20mg",
@@ -3486,7 +3486,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69315011710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Furosemide 40mg",
         "Medication Name": "Furosemide",
         "Strength": "40mg",
@@ -3503,7 +3503,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00054430129",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Furosemide 80mg",
         "Medication Name": "Furosemide",
         "Strength": "80mg",
@@ -3520,7 +3520,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69097082112",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Gemfibrozil 600mg",
         "Medication Name": "Gemfibrozil",
         "Strength": "600mg",
@@ -3537,7 +3537,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111032005",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glimepiride 1mg",
         "Medication Name": "Glimepiride",
         "Strength": "1mg",
@@ -3554,7 +3554,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111032105",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glimepiride 2mg",
         "Medication Name": "Glimepiride",
         "Strength": "2mg",
@@ -3571,7 +3571,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111032205",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glimepiride 4mg",
         "Medication Name": "Glimepiride",
         "Strength": "4mg",
@@ -3588,7 +3588,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591046105",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glipizide 10mg",
         "Medication Name": "Glipizide",
         "Strength": "10mg",
@@ -3605,7 +3605,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60505014101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glipizide 5mg",
         "Medication Name": "Glipizide",
         "Strength": "5mg",
@@ -3622,7 +3622,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093745501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glipizide-Metformin HCl 2.5-250mg Tablet",
         "Medication Name": "Glipizide-Metformin HCl",
         "Strength": "2.5-250mg",
@@ -3639,7 +3639,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093745601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glipizide-Metformin HCl 2.5-500mg Tablet",
         "Medication Name": "Glipizide-Metformin HCl",
         "Strength": "2.5-500mg",
@@ -3656,7 +3656,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68382018601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glipizide-Metformin HCl 5-500mg Tablet",
         "Medication Name": "Glipizide-Metformin HCl",
         "Strength": "5-500mg",
@@ -3673,7 +3673,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093834201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glyburide 1.25mg",
         "Medication Name": "Glyburide",
         "Strength": "1.25mg",
@@ -3690,7 +3690,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093834301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glyburide 2.5mg",
         "Medication Name": "Glyburide",
         "Strength": "2.5mg",
@@ -3707,7 +3707,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093834401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glyburide 5mg",
         "Medication Name": "Glyburide",
         "Strength": "5mg",
@@ -3724,7 +3724,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862008001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glyburide-Metformin 1.25-250mg Tablet",
         "Medication Name": "Glyburide-Metformin",
         "Strength": "1.25-250mg",
@@ -3741,7 +3741,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237002401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glyburide-Metformin 2.5-500mg Tablet",
         "Medication Name": "Glyburide-Metformin",
         "Strength": "2.5-500mg",
@@ -3758,7 +3758,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862008205",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Glyburide-Metformin 5mg-500mg",
         "Medication Name": "Glyburide-Metformin",
         "Strength": "5mg-500mg",
@@ -3775,7 +3775,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69618006106",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Guaifenesin 400mg Tablet",
         "Medication Name": "Guaifenesin",
         "Strength": "400mg",
@@ -3792,7 +3792,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "58602081097",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Guaifenesin ER 600mg Tablet Extended Release 12HR",
         "Medication Name": "Guaifenesin ER",
         "Strength": "600mg",
@@ -3809,7 +3809,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00832152011",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Haloperidol 1mg",
         "Medication Name": "Haloperidol",
         "Strength": "1mg",
@@ -3826,7 +3826,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00378021410",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Haloperidol 2mg",
         "Medication Name": "Haloperidol",
         "Strength": "2mg",
@@ -3843,7 +3843,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00832154011",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Haloperidol 5mg",
         "Medication Name": "Haloperidol",
         "Strength": "5mg",
@@ -3860,7 +3860,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50111039803",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Hydralazine 10mg",
         "Medication Name": "Hydralazine",
         "Strength": "10mg",
@@ -3877,7 +3877,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50111032703",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Hydralazine 25mg",
         "Medication Name": "Hydralazine",
         "Strength": "25mg",
@@ -3894,7 +3894,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50111032803",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Hydralazine 50mg",
         "Medication Name": "Hydralazine",
         "Strength": "50mg",
@@ -3911,7 +3911,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300013010",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Hydrochlorothiazide 12.5mg",
         "Medication Name": "Hydrochlorothiazide",
         "Strength": "12.5mg",
@@ -3928,7 +3928,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00172208380",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Hydrochlorothiazide 25mg",
         "Medication Name": "Hydrochlorothiazide",
         "Strength": "25mg",
@@ -3945,7 +3945,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729018417",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Hydrochlorothiazide 50mg",
         "Medication Name": "Hydrochlorothiazide",
         "Strength": "50mg",
@@ -3962,7 +3962,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69315016401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Hydroxyurea 500mg Capsule",
         "Medication Name": "Hydroxyurea",
         "Strength": "500mg",
@@ -3979,7 +3979,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093506001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Hydroxyzine HCl 10mg",
         "Medication Name": "Hydroxyzine HCl",
         "Strength": "10mg",
@@ -3996,7 +3996,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "23155050101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Hydroxyzine HCl 25mg",
         "Medication Name": "Hydroxyzine HCl",
         "Strength": "25mg",
@@ -4013,7 +4013,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093506201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Hydroxyzine HCL 50mg",
         "Medication Name": "Hydroxyzine HCL",
         "Strength": "50mg",
@@ -4030,7 +4030,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "49483060250",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ibuprofen 400mg",
         "Medication Name": "Ibuprofen",
         "Strength": "400mg",
@@ -4047,7 +4047,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "49483060350",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ibuprofen 600mg",
         "Medication Name": "Ibuprofen",
         "Strength": "600mg",
@@ -4064,7 +4064,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "49483060450",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ibuprofen 800mg",
         "Medication Name": "Ibuprofen",
         "Strength": "800mg",
@@ -4081,7 +4081,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462040610",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Indomethacin 25mg",
         "Medication Name": "Indomethacin",
         "Strength": "25mg",
@@ -4098,7 +4098,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462030205",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Indomethacin 50mg",
         "Medication Name": "Indomethacin",
         "Strength": "50mg",
@@ -4115,7 +4115,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462032501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Indomethacin Extended Release (ER) 75mg",
         "Medication Name": "Indomethacin Extended Release (ER)",
         "Strength": "75mg",
@@ -4132,7 +4132,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722073090",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Irbesartan 150mg",
         "Medication Name": "Irbesartan",
         "Strength": "150mg",
@@ -4149,7 +4149,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722073190",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Irbesartan 300mg",
         "Medication Name": "Irbesartan",
         "Strength": "300mg",
@@ -4166,7 +4166,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722072990",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Irbesartan 75mg",
         "Medication Name": "Irbesartan",
         "Strength": "75mg",
@@ -4183,7 +4183,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093823898",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Irbesartan-Hydrochlorothiazide 150mg-12.5mg",
         "Medication Name": "Irbesartan-Hydrochlorothiazide",
         "Strength": "150mg-12.5mg",
@@ -4200,7 +4200,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093823298",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Irbesartan-Hydrochlorothiazide 300mg-12.5mg",
         "Medication Name": "Irbesartan-Hydrochlorothiazide",
         "Strength": "300mg-12.5mg",
@@ -4217,7 +4217,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00555006602",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isoniazid 100mg Tablet",
         "Medication Name": "Isoniazid",
         "Strength": "100mg",
@@ -4234,7 +4234,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00555007101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isoniazid 300mg Tablet",
         "Medication Name": "Isoniazid",
         "Strength": "300mg",
@@ -4251,7 +4251,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72888008201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isosorbide Dinitrate 10mg Tablet",
         "Medication Name": "Isosorbide Dinitrate",
         "Strength": "10mg",
@@ -4268,7 +4268,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72888008301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isosorbide Dinitrate 20mg Tablet",
         "Medication Name": "Isosorbide Dinitrate",
         "Strength": "20mg",
@@ -4285,7 +4285,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "49884000901",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isosorbide Dinitrate 30mg Tablet",
         "Medication Name": "Isosorbide Dinitrate",
         "Strength": "30mg",
@@ -4302,7 +4302,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72888008501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isosorbide Dinitrate 40mg Tablet",
         "Medication Name": "Isosorbide Dinitrate",
         "Strength": "40mg",
@@ -4319,7 +4319,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72888008101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isosorbide Dinitrate 5mg Tablet",
         "Medication Name": "Isosorbide Dinitrate",
         "Strength": "5mg",
@@ -4336,7 +4336,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00228263111",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isosorbide Mononitrate 10mg Tablet",
         "Medication Name": "Isosorbide Mononitrate",
         "Strength": "10mg",
@@ -4353,7 +4353,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00228262011",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isosorbide Mononitrate 20mg Tablet",
         "Medication Name": "Isosorbide Mononitrate",
         "Strength": "20mg",
@@ -4370,7 +4370,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "23155062801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isosorbide Mononitrate ER 120mg Tablet Extended Release 24HR",
         "Medication Name": "Isosorbide Mononitrate ER",
         "Strength": "120mg",
@@ -4387,7 +4387,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "23155051905",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isosorbide Mononitrate Extended Release (ER) 30mg",
         "Medication Name": "Isosorbide Mononitrate Extended Release (ER)",
         "Strength": "30mg",
@@ -4404,7 +4404,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "23155017805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Isosorbide Mononitrate Extended Release (ER) 60mg",
         "Medication Name": "Isosorbide Mononitrate Extended Release (ER)",
         "Strength": "60mg",
@@ -4421,7 +4421,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093031401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ketorolac Tromethamine 10mg",
         "Medication Name": "Ketorolac Tromethamine",
         "Strength": "10mg",
@@ -4438,7 +4438,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591060505",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Labetalol HCl 100mg",
         "Medication Name": "Labetalol HCl",
         "Strength": "100mg",
@@ -4455,7 +4455,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591060605",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Labetalol HCl 200mg",
         "Medication Name": "Labetalol HCl",
         "Strength": "200mg",
@@ -4472,7 +4472,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591060701",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Labetalol HCl 300mg",
         "Medication Name": "Labetalol HCl",
         "Strength": "300mg",
@@ -4489,7 +4489,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60505325006",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamivudine 100mg Tablet",
         "Medication Name": "Lamivudine",
         "Strength": "100mg",
@@ -4506,7 +4506,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342000109",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamivudine 150mg Tablet",
         "Medication Name": "Lamivudine",
         "Strength": "150mg",
@@ -4523,7 +4523,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342000207",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamivudine 300mg Tablet",
         "Medication Name": "Lamivudine",
         "Strength": "300mg",
@@ -4540,7 +4540,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342000309",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamivudine-Zidovudine 150-300mg Tablet",
         "Medication Name": "Lamivudine-Zidovudine",
         "Strength": "150-300mg",
@@ -4557,7 +4557,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300011210",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamotrigine 100mg",
         "Medication Name": "Lamotrigine",
         "Strength": "100mg",
@@ -4574,7 +4574,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162095803",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamotrigine Extended Release (ER) 100mg",
         "Medication Name": "Lamotrigine Extended Release (ER)",
         "Strength": "100mg",
@@ -4591,7 +4591,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162098603",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamotrigine Extended Release (ER) 200mg",
         "Medication Name": "Lamotrigine Extended Release (ER)",
         "Strength": "200mg",
@@ -4608,7 +4608,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111041930",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamotrigine Extended Release (ER) 250mg",
         "Medication Name": "Lamotrigine Extended Release (ER)",
         "Strength": "250mg",
@@ -4625,7 +4625,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162094903",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamotrigine Extended Release (ER) 25mg",
         "Medication Name": "Lamotrigine Extended Release (ER)",
         "Strength": "25mg",
@@ -4642,7 +4642,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111042830",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamotrigine Extended Release (ER) 300mg",
         "Medication Name": "Lamotrigine Extended Release (ER)",
         "Strength": "300mg",
@@ -4659,7 +4659,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162095603",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lamotrigine Extended Release (ER) 50mg",
         "Medication Name": "Lamotrigine Extended Release (ER)",
         "Strength": "50mg",
@@ -4676,7 +4676,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111039830",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lansoprazole Delayed Release (DR) 15mg",
         "Medication Name": "Lansoprazole Delayed Release (DR)",
         "Strength": "15mg",
@@ -4693,7 +4693,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70756080790",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lansoprazole Delayed Release (DR) 30mg",
         "Medication Name": "Lansoprazole Delayed Release (DR)",
         "Strength": "30mg",
@@ -4710,7 +4710,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729003415",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Letrozole 2.5mg",
         "Medication Name": "Letrozole",
         "Strength": "2.5mg",
@@ -4727,7 +4727,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180011507",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levetiracetam 1000mg",
         "Medication Name": "Levetiracetam",
         "Strength": "1000mg",
@@ -4744,7 +4744,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180011202",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levetiracetam 250mg",
         "Medication Name": "Levetiracetam",
         "Strength": "250mg",
@@ -4761,7 +4761,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180011302",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levetiracetam 500mg",
         "Medication Name": "Levetiracetam",
         "Strength": "500mg",
@@ -4778,7 +4778,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180011402",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levetiracetam 750mg",
         "Medication Name": "Levetiracetam",
         "Strength": "750mg",
@@ -4795,7 +4795,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111027950",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levofloxacin 250mg",
         "Medication Name": "Levofloxacin",
         "Strength": "250mg",
@@ -4812,7 +4812,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111028050",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levofloxacin 500mg",
         "Medication Name": "Levofloxacin",
         "Strength": "500mg",
@@ -4829,7 +4829,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111028130",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levofloxacin 750mg",
         "Medication Name": "Levofloxacin",
         "Strength": "750mg",
@@ -4846,7 +4846,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180096903",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 100mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "100mcg",
@@ -4863,7 +4863,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180097003",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 112mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "112mcg",
@@ -4880,7 +4880,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180097103",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 125mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "125mcg",
@@ -4897,7 +4897,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180097203",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 137mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "137mcg",
@@ -4914,7 +4914,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180097303",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 150mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "150mcg",
@@ -4931,7 +4931,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180097403",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 175mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "175mcg",
@@ -4948,7 +4948,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180097503",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 200mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "200mcg",
@@ -4965,7 +4965,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180096503",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 25mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "25mcg",
@@ -4982,7 +4982,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180097603",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 300mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "300mcg",
@@ -4999,7 +4999,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180096603",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 50mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "50mcg",
@@ -5016,7 +5016,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180096703",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 75mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "75mcg",
@@ -5033,7 +5033,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180096803",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Levothyroxine 88mcg",
         "Medication Name": "Levothyroxine",
         "Strength": "88mcg",
@@ -5050,7 +5050,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722074920",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Linezolid 600mg",
         "Medication Name": "Linezolid",
         "Strength": "600mg",
@@ -5067,7 +5067,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093217801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Liothyronine Sodium 25mcg",
         "Medication Name": "Liothyronine Sodium",
         "Strength": "25mcg",
@@ -5084,7 +5084,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093218001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Liothyronine Sodium 50mcg",
         "Medication Name": "Liothyronine Sodium",
         "Strength": "50mcg",
@@ -5101,7 +5101,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093217901",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Liothyronine Sodium 5mcg",
         "Medication Name": "Liothyronine Sodium",
         "Strength": "5mcg",
@@ -5118,7 +5118,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180051802",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lisinopril / HCTZ 10mg-12.5mg",
         "Medication Name": "Lisinopril / HCTZ",
         "Strength": "10mg-12.5mg",
@@ -5135,7 +5135,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180051902",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lisinopril / HCTZ 20mg-12.5mg",
         "Medication Name": "Lisinopril / HCTZ",
         "Strength": "20mg-12.5mg",
@@ -5152,7 +5152,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180052002",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lisinopril / HCTZ 20mg-25mg",
         "Medication Name": "Lisinopril / HCTZ",
         "Strength": "20mg-25mg",
@@ -5169,7 +5169,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180098003",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lisinopril 10mg",
         "Medication Name": "Lisinopril",
         "Strength": "10mg",
@@ -5186,7 +5186,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180051202",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lisinopril 2.5mg",
         "Medication Name": "Lisinopril",
         "Strength": "2.5mg",
@@ -5203,7 +5203,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180098103",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lisinopril 20mg",
         "Medication Name": "Lisinopril",
         "Strength": "20mg",
@@ -5220,7 +5220,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180098202",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lisinopril 30mg",
         "Medication Name": "Lisinopril",
         "Strength": "30mg",
@@ -5237,7 +5237,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180097903",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lisinopril 40mg",
         "Medication Name": "Lisinopril",
         "Strength": "40mg",
@@ -5254,7 +5254,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180051303",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lisinopril 5mg",
         "Medication Name": "Lisinopril",
         "Strength": "5mg",
@@ -5271,7 +5271,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462022001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lithium Carbonate 150mg Capsule",
         "Medication Name": "Lithium Carbonate",
         "Strength": "150mg",
@@ -5288,7 +5288,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462022101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lithium Carbonate 300mg Capsule",
         "Medication Name": "Lithium Carbonate",
         "Strength": "300mg",
@@ -5305,7 +5305,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462022201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lithium Carbonate 600mg Capsule",
         "Medication Name": "Lithium Carbonate",
         "Strength": "600mg",
@@ -5322,7 +5322,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093031101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Loperamide HCl 2mg",
         "Medication Name": "Loperamide HCl",
         "Strength": "2mg",
@@ -5339,7 +5339,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "45802065087",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Loratadine 10mg",
         "Medication Name": "Loratadine",
         "Strength": "10mg",
@@ -5356,7 +5356,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180021609",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Losartan / HCTZ 100mg/12.5mg",
         "Medication Name": "Losartan / HCTZ",
         "Strength": "100mg-12.5mg",
@@ -5373,7 +5373,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180021709",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Losartan / HCTZ 100mg/25mg",
         "Medication Name": "Losartan / HCTZ",
         "Strength": "100mg-25mg",
@@ -5390,7 +5390,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180021509",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Losartan / HCTZ 50mg/12.5mg",
         "Medication Name": "Losartan / HCTZ",
         "Strength": "50mg-12.5mg",
@@ -5407,7 +5407,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180037803",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Losartan 100mg",
         "Medication Name": "Losartan",
         "Strength": "100mg",
@@ -5424,7 +5424,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180037603",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Losartan 25mg",
         "Medication Name": "Losartan",
         "Strength": "25mg",
@@ -5441,7 +5441,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180037703",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Losartan 50mg",
         "Medication Name": "Losartan",
         "Strength": "50mg",
@@ -5458,7 +5458,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180046703",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lovastatin 10mg",
         "Medication Name": "Lovastatin",
         "Strength": "10mg",
@@ -5475,7 +5475,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180046805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lovastatin 20mg",
         "Medication Name": "Lovastatin",
         "Strength": "20mg",
@@ -5492,7 +5492,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180046905",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lovastatin 40mg",
         "Medication Name": "Lovastatin",
         "Strength": "40mg",
@@ -5509,7 +5509,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43598035530",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lurasidone HCl 120mg Tablet",
         "Medication Name": "Lurasidone HCl",
         "Strength": "120mg",
@@ -5526,7 +5526,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43598035130",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lurasidone HCl 20mg Tablet",
         "Medication Name": "Lurasidone HCl",
         "Strength": "20mg",
@@ -5543,7 +5543,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43598035230",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lurasidone HCl 40mg Tablet",
         "Medication Name": "Lurasidone HCl",
         "Strength": "40mg",
@@ -5560,7 +5560,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43598035330",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lurasidone HCl 60mg Tablet",
         "Medication Name": "Lurasidone HCl",
         "Strength": "60mg",
@@ -5577,7 +5577,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43598035430",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Lurasidone HCl 80mg Tablet",
         "Medication Name": "Lurasidone HCl",
         "Strength": "80mg",
@@ -5594,7 +5594,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162044111",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Meclizine HCl 12.5mg",
         "Medication Name": "Meclizine HCl",
         "Strength": "12.5mg",
@@ -5611,7 +5611,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57896037801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Meclizine HCl 25mg Tablet",
         "Medication Name": "Meclizine HCl",
         "Strength": "25mg",
@@ -5628,7 +5628,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00555060602",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Megestrol Acetate 20mg Tablet",
         "Medication Name": "Megestrol Acetate",
         "Strength": "20mg",
@@ -5645,7 +5645,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00555060702",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Megestrol Acetate 40mg Tablet",
         "Medication Name": "Megestrol Acetate",
         "Strength": "40mg",
@@ -5662,7 +5662,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70954007710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Meloxicam 10mg Capsule",
         "Medication Name": "Meloxicam",
         "Strength": "10mg",
@@ -5679,7 +5679,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300012510",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Meloxicam 15mg",
         "Medication Name": "Meloxicam",
         "Strength": "15mg",
@@ -5696,7 +5696,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70954007610",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Meloxicam 5mg Capsule",
         "Medication Name": "Meloxicam",
         "Strength": "5mg",
@@ -5713,7 +5713,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300012410",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Meloxicam 7.5mg",
         "Medication Name": "Meloxicam",
         "Strength": "7.5mg",
@@ -5730,7 +5730,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180023007",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Memantine 10mg",
         "Medication Name": "Memantine",
         "Strength": "10mg",
@@ -5747,7 +5747,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180022907",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Memantine 5mg",
         "Medication Name": "Memantine",
         "Strength": "5mg",
@@ -5764,7 +5764,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093590786",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mesalamine 400mg Capsule Delayed Release",
         "Medication Name": "Mesalamine",
         "Strength": "400mg",
@@ -5781,7 +5781,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68382043528",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mesalamine 800mg Tablet Delayed Release",
         "Medication Name": "Mesalamine",
         "Strength": "800mg",
@@ -5798,7 +5798,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00115174501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metaxalone 400mg Tablet",
         "Medication Name": "Metaxalone",
         "Strength": "400mg",
@@ -5815,7 +5815,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00527143501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metaxalone 800mg Tablet",
         "Medication Name": "Metaxalone",
         "Strength": "800mg",
@@ -5832,7 +5832,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70010006510",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metformin 1000mg",
         "Medication Name": "Metformin",
         "Strength": "1000mg",
@@ -5849,7 +5849,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877056110",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metformin 500mg",
         "Medication Name": "Metformin",
         "Strength": "500mg",
@@ -5866,7 +5866,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51224010760",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metformin Extended Release (ER) 750mg",
         "Medication Name": "Metformin Extended Release (ER)",
         "Strength": "750mg",
@@ -5883,7 +5883,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "23155007101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Methimazole 10mg",
         "Medication Name": "Methimazole",
         "Strength": "10mg",
@@ -5900,7 +5900,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "23155007001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Methimazole 5mg",
         "Medication Name": "Methimazole",
         "Strength": "5mg",
@@ -5917,7 +5917,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722053305",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Methocarbamol 500mg",
         "Medication Name": "Methocarbamol",
         "Strength": "500mg",
@@ -5934,7 +5934,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70010077005",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Methocarbamol 750mg",
         "Medication Name": "Methocarbamol",
         "Strength": "750mg",
@@ -5951,7 +5951,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00555057202",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Methotrexate 2.5mg",
         "Medication Name": "Methotrexate",
         "Strength": "2.5mg",
@@ -5968,7 +5968,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093220301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoclopramide HCl 10mg",
         "Medication Name": "Metoclopramide HCl",
         "Strength": "10mg",
@@ -5985,7 +5985,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093220405",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoclopramide HCl 5mg",
         "Medication Name": "Metoclopramide HCl",
         "Strength": "5mg",
@@ -6002,7 +6002,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69292056601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metolazone 10mg Tablet",
         "Medication Name": "Metolazone",
         "Strength": "10mg",
@@ -6019,7 +6019,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "76385013601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metolazone 2.5mg Tablet",
         "Medication Name": "Metolazone",
         "Strength": "2.5mg",
@@ -6036,7 +6036,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69292056401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metolazone 5mg Tablet",
         "Medication Name": "Metolazone",
         "Strength": "5mg",
@@ -6053,7 +6053,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237010299",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol 100mg",
         "Medication Name": "Metoprolol",
         "Strength": "100mg",
@@ -6070,7 +6070,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237010099",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol 25mg",
         "Medication Name": "Metoprolol",
         "Strength": "25mg",
@@ -6087,7 +6087,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237010199",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol 50mg",
         "Medication Name": "Metoprolol",
         "Strength": "50mg",
@@ -6104,7 +6104,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111046805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol Succinate Extended Release (ER) 100mg",
         "Medication Name": "Metoprolol Extended Release (ER)",
         "Strength": "100mg",
@@ -6121,7 +6121,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72516003301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol Succinate Extended Release (ER) 200mg",
         "Medication Name": "Metoprolol Extended Release (ER)",
         "Strength": "200mg",
@@ -6138,7 +6138,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111046605",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol Succinate Extended Release (ER) 25mg",
         "Medication Name": "Metoprolol Extended Release (ER)",
         "Strength": "25mg",
@@ -6155,7 +6155,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111046705",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol Succinate Extended Release (ER) 50mg",
         "Medication Name": "Metoprolol Extended Release (ER)",
         "Strength": "50mg",
@@ -6172,7 +6172,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72888010101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol Tartrate 37.5mg Tablet",
         "Medication Name": "Metoprolol Tartrate",
         "Strength": "37.5mg",
@@ -6189,7 +6189,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72888002301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol Tartrate 75mg Tablet",
         "Medication Name": "Metoprolol Tartrate",
         "Strength": "75mg",
@@ -6206,7 +6206,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00378043401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol-Hydrochlorothiazide 100-25mg Tablet",
         "Medication Name": "Metoprolol-Hydrochlorothiazide",
         "Strength": "100-25mg",
@@ -6223,7 +6223,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00378042401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metoprolol-hydroCHLOROthiazide 50-25mg Tablet",
         "Medication Name": "Metoprolol-hydroCHLOROthiazide",
         "Strength": "50-25mg",
@@ -6240,7 +6240,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50111033301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metronidazole 250mg",
         "Medication Name": "Metronidazole",
         "Strength": "250mg",
@@ -6257,7 +6257,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72578000805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Metronidazole 500mg",
         "Medication Name": "Metronidazole",
         "Strength": "500mg",
@@ -6274,7 +6274,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59651024801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Midodrine HCl 10mg",
         "Medication Name": "Midodrine HCl",
         "Strength": "10mg",
@@ -6291,7 +6291,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "52817032310",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Midodrine HCl 2.5mg Tablet",
         "Medication Name": "Midodrine HCl",
         "Strength": "2.5mg",
@@ -6308,7 +6308,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "52817032410",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Midodrine HCl 5mg",
         "Medication Name": "Midodrine HCl",
         "Strength": "5mg",
@@ -6325,7 +6325,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591569550",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Minocycline HCl 100mg",
         "Medication Name": "Minocycline HCl",
         "Strength": "100mg",
@@ -6342,7 +6342,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591569401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Minocycline HCl 50mg",
         "Medication Name": "Minocycline HCl",
         "Strength": "50mg",
@@ -6359,7 +6359,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591315301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Minocycline HCl 75mg",
         "Medication Name": "Minocycline",
         "Strength": "75mg",
@@ -6376,7 +6376,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591564301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Minoxidil 10mg Tablet",
         "Medication Name": "Minoxidil",
         "Strength": "10mg",
@@ -6393,7 +6393,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591564201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Minoxidil 2.5mg Tablet",
         "Medication Name": "Minoxidil",
         "Strength": "2.5mg",
@@ -6410,7 +6410,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237000805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mirtazapine 15mg",
         "Medication Name": "Mirtazapine",
         "Strength": "15mg",
@@ -6427,7 +6427,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60505024808",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mirtazapine 30mg",
         "Medication Name": "Mirtazapine",
         "Strength": "30mg",
@@ -6444,7 +6444,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60505024908",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mirtazapine 45mg",
         "Medication Name": "Mirtazapine",
         "Strength": "45mg",
@@ -6461,7 +6461,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "13107000130",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mirtazapine 7.5mg Tablet",
         "Medication Name": "Mirtazapine",
         "Strength": "7.5mg",
@@ -6478,7 +6478,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237001106",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mirtazapine ODT 15mg",
         "Medication Name": "Mirtazapine ODT",
         "Strength": "15mg",
@@ -6495,7 +6495,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237001206",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mirtazapine ODT 30mg",
         "Medication Name": "Mirtazapine ODT",
         "Strength": "30mg",
@@ -6512,7 +6512,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237001306",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mirtazapine ODT 45mg",
         "Medication Name": "Mirtazapine ODT",
         "Strength": "45mg",
@@ -6529,7 +6529,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111072510",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Montelukast 10mg",
         "Medication Name": "Montelukast",
         "Strength": "10mg",
@@ -6546,7 +6546,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62175020543",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Montelukast 5mg",
         "Medication Name": "Montelukast",
         "Strength": "5mg",
@@ -6563,7 +6563,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111011230",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Moxifloxacin HCl 400mg",
         "Medication Name": "Moxifloxacin HCl",
         "Strength": "400mg",
@@ -6580,7 +6580,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093733405",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mycophenolate Mofetil 250mg",
         "Medication Name": "Mycophenolate Mofetil",
         "Strength": "250mg",
@@ -6597,7 +6597,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729001916",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mycophenolate Mofetil 500mg",
         "Medication Name": "Mycophenolate Mofetil",
         "Strength": "500mg",
@@ -6614,7 +6614,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729026129",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mycophenolate Sodium Delayed Release 180mg",
         "Medication Name": "Mycophenolate Sodium Delayed Release",
         "Strength": "180mg",
@@ -6631,7 +6631,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729018929",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Mycophenolate Sodium Delayed Release 360mg",
         "Medication Name": "Mycophenolate Sodium Delayed Release",
         "Strength": "360mg",
@@ -6648,7 +6648,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "47335032688",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Naltrexone HCl 50mg",
         "Medication Name": "Naltrexone HCl",
         "Strength": "50mg",
@@ -6665,7 +6665,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162018850",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Naproxen 250mg",
         "Medication Name": "Naproxen  ",
         "Strength": "250mg",
@@ -6682,7 +6682,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162019011",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Naproxen 500mg",
         "Medication Name": "Naproxen  ",
         "Strength": "500mg",
@@ -6699,7 +6699,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59651013990",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nebivolol HCl 10mg",
         "Medication Name": "Nebivolol HCl",
         "Strength": "10mg",
@@ -6716,7 +6716,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59651013730",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nebivolol HCl 2.5mg",
         "Medication Name": "Nebivolol HCl",
         "Strength": "2.5mg",
@@ -6733,7 +6733,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59651014090",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nebivolol HCl 20mg",
         "Medication Name": "Nebivolol HCl",
         "Strength": "20mg",
@@ -6750,7 +6750,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59651013890",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nebivolol HCl 5mg",
         "Medication Name": "Nebivolol HCl",
         "Strength": "5mg",
@@ -6767,7 +6767,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69315021101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nifedipine 10mg Capsule",
         "Medication Name": "Nifedipine",
         "Strength": "10mg",
@@ -6784,7 +6784,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69315021201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nifedipine 20mg Capsule",
         "Medication Name": "Nifedipine",
         "Strength": "20mg",
@@ -6801,7 +6801,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59651029501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nifedipine ER 30mg Tablet Extended Release",
         "Medication Name": "Nifedipine ER",
         "Strength": "30mg",
@@ -6818,7 +6818,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68682010630",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nifedipine ER 60mg Tablet Extended Release",
         "Medication Name": "Nifedipine ER",
         "Strength": "60mg",
@@ -6835,7 +6835,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68682010710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nifedipine ER 90mg Tablet Extended Release",
         "Medication Name": "Nifedipine ER",
         "Strength": "90mg",
@@ -6852,7 +6852,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "23155051230",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nimodipine 30mg Capsule",
         "Medication Name": "Nimodipine",
         "Strength": "30mg",
@@ -6869,7 +6869,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70756041211",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nitrofurantoin Macrocrystal 100mg Capsule",
         "Medication Name": "Nitrofurantoin Macrocrystal",
         "Strength": "100mg",
@@ -6886,7 +6886,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093081001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nortriptyline HCl 10mg",
         "Medication Name": "Nortriptyline HCl",
         "Strength": "10mg",
@@ -6903,7 +6903,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093081105",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nortriptyline HCl 25mg",
         "Medication Name": "Nortriptyline HCl",
         "Strength": "25mg",
@@ -6920,7 +6920,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093081201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nortriptyline HCl 50mg",
         "Medication Name": "Nortriptyline HCl",
         "Strength": "50mg",
@@ -6937,7 +6937,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672400401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Nortriptyline HCl 75mg",
         "Medication Name": "Nortriptyline HCl",
         "Strength": "75mg",
@@ -6954,7 +6954,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60505311308",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Olanzapine 10mg",
         "Medication Name": "Olanzapine",
         "Strength": "10mg",
@@ -6971,7 +6971,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342007107",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Olanzapine 15mg",
         "Medication Name": "Olanzapine",
         "Strength": "15mg",
@@ -6988,7 +6988,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877044690",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Olmesartan Medoxomil 20mg",
         "Medication Name": "Olmesartan Medoxomil",
         "Strength": "20mg",
@@ -7005,7 +7005,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862074390",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Olmesartan Medoxomil 40mg",
         "Medication Name": "Olmesartan Medoxomil",
         "Strength": "40mg",
@@ -7022,7 +7022,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862074130",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Olmesartan Medoxomil 5mg",
         "Medication Name": "Olmesartan Medoxomil",
         "Strength": "5mg",
@@ -7039,7 +7039,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70700015010",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Omeprazole Delayed Release (DR) 20mg",
         "Medication Name": "Omeprazole Delayed Release (DR)",
         "Strength": "20mg",
@@ -7056,7 +7056,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462039710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Omeprazole Delayed Release (DR) 40mg",
         "Medication Name": "Omeprazole Delayed Release (DR)",
         "Strength": "40mg",
@@ -7073,7 +7073,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "71930001752",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ondansetron 4mg",
         "Medication Name": "Ondansetron",
         "Strength": "4mg",
@@ -7090,7 +7090,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237007630",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ondansetron 8mg",
         "Medication Name": "Ondansetron",
         "Strength": "8mg",
@@ -7107,7 +7107,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237007710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ondansetron ODT 4mg",
         "Medication Name": "Ondansetron ODT",
         "Strength": "4mg",
@@ -7124,7 +7124,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237007810",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ondansetron ODT 8mg",
         "Medication Name": "Ondansetron ODT",
         "Strength": "8mg",
@@ -7141,7 +7141,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238126601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Oseltamivir 75mg",
         "Medication Name": "Oseltamivir",
         "Strength": "75mg",
@@ -7158,7 +7158,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51991029201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Oxcarbazepine 150mg",
         "Medication Name": "Oxcarbazepine",
         "Strength": "150mg",
@@ -7175,7 +7175,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51991029301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Oxcarbazepine 300mg",
         "Medication Name": "Oxcarbazepine",
         "Strength": "300mg",
@@ -7192,7 +7192,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70954000520",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Oxybutynin Chloride 5mg",
         "Medication Name": "Oxybutynin Chloride",
         "Strength": "5mg",
@@ -7209,7 +7209,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162037250",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Oxybutynin Extended Release (ER) 10mg",
         "Medication Name": "Oxybutynin Extended Release (ER)",
         "Strength": "10mg",
@@ -7226,7 +7226,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162037310",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Oxybutynin Extended Release (ER) 15mg",
         "Medication Name": "Oxybutynin Extended Release (ER)",
         "Strength": "15mg",
@@ -7243,7 +7243,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162037150",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Oxybutynin Extended Release (ER) 5mg",
         "Medication Name": "Oxybutynin Extended Release (ER)",
         "Strength": "5mg",
@@ -7260,7 +7260,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162063711",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pantoprazole Delayed Release (DR) 40mg",
         "Medication Name": "Pantoprazole Delayed Release (DR)",
         "Strength": "40mg",
@@ -7277,7 +7277,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68382009710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Paroxetine 10mg",
         "Medication Name": "Paroxetine",
         "Strength": "10mg",
@@ -7294,7 +7294,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68382009816",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Paroxetine 20mg",
         "Medication Name": "Paroxetine",
         "Strength": "20mg",
@@ -7311,7 +7311,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68382009910",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Paroxetine 30mg",
         "Medication Name": "Paroxetine",
         "Strength": "30mg",
@@ -7328,7 +7328,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68382000105",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Paroxetine 40mg",
         "Medication Name": "Paroxetine",
         "Strength": "40mg",
@@ -7345,7 +7345,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237004101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Penicillin Potassium 500mg",
         "Medication Name": "Penicillin Potassium",
         "Strength": "500mg",
@@ -7362,7 +7362,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237004099",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Penicillin V Potassium 250mg",
         "Medication Name": "Penicillin V Potassium",
         "Strength": "250mg",
@@ -7379,7 +7379,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672411103",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Phenytoin Sodium 100mg",
         "Medication Name": "Phenytoin Sodium",
         "Strength": "100mg",
@@ -7396,7 +7396,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862051205",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pioglitazone HCl 15mg",
         "Medication Name": "Pioglitazone",
         "Strength": "15mg",
@@ -7413,7 +7413,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093727298",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pioglitazone HCl 30mg",
         "Medication Name": "Pioglitazone HCl",
         "Strength": "30mg",
@@ -7430,7 +7430,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862051405",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pioglitazone HCl 45mg",
         "Medication Name": "Pioglitazone",
         "Strength": "45mg",
@@ -7447,7 +7447,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43386019431",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Potassium Chloride 20mEq",
         "Medication Name": "Potassium Chloride",
         "Strength": "20mEq",
@@ -7464,7 +7464,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862098799",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Potassium Chloride ER 10mEq Tablet Extended-Release",
         "Medication Name": "Potassium Chloride ER",
         "Strength": "10mEq",
@@ -7481,7 +7481,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70436015301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Potassium Chloride ER 20mEq Tablet Extended-Release",
         "Medication Name": "Potassium Chloride ER",
         "Strength": "20mEq",
@@ -7498,7 +7498,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238106507",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Potassium Chloride Extended Release (ER) 10mEq",
         "Medication Name": "Potassium Chloride Extended Release (ER)",
         "Strength": "10mEq",
@@ -7515,7 +7515,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180079902",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Potassium Chloride Extended Release (ER) 10mEq",
         "Medication Name": "Potassium Chloride Extended Release (ER)",
         "Strength": "10mEq",
@@ -7532,7 +7532,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238106905",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Potassium Chloride Extended Release (ER) 20mEq",
         "Medication Name": "Potassium Chloride Extended Release (ER)",
         "Strength": "20mEq",
@@ -7549,7 +7549,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462033490",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pramipexole 1.5mg",
         "Medication Name": "Pramipexole Dihydrochloride",
         "Strength": "1.5mg",
@@ -7566,7 +7566,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462033390",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pramipexole 1mg",
         "Medication Name": "Pramipexole Dihydrochloride",
         "Strength": "1mg",
@@ -7583,7 +7583,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093077110",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pravastatin 10mg",
         "Medication Name": "Pravastatin",
         "Strength": "10mg",
@@ -7600,7 +7600,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093720110",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pravastatin 20mg",
         "Medication Name": "Pravastatin",
         "Strength": "20mg",
@@ -7617,7 +7617,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093720210",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pravastatin 40mg",
         "Medication Name": "Pravastatin",
         "Strength": "40mg",
@@ -7634,7 +7634,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093727010",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pravastatin 80mg",
         "Medication Name": "Pravastatin",
         "Strength": "80mg",
@@ -7651,7 +7651,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70954001910",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Prazosin HCL 1mg",
         "Medication Name": "Prazosin HCl",
         "Strength": "1mg",
@@ -7668,7 +7668,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70954002010",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Prazosin HCl 2mg",
         "Medication Name": "Prazosin HCl",
         "Strength": "2mg",
@@ -7685,7 +7685,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70954002110",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Prazosin HCl 5mg",
         "Medication Name": "Prazosin HCl",
         "Strength": "5mg",
@@ -7702,7 +7702,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591544205",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Prednisone 10mg",
         "Medication Name": "Prednisone",
         "Strength": "10mg",
@@ -7719,7 +7719,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591544310",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Prednisone 20mg",
         "Medication Name": "Prednisone",
         "Strength": "20mg",
@@ -7736,7 +7736,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00527293537",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Prednisone 50mg",
         "Medication Name": "Prednisone",
         "Strength": "50mg",
@@ -7753,7 +7753,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591532101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Primidone 250mg Tablet",
         "Medication Name": "Primidone",
         "Strength": "250mg",
@@ -7770,7 +7770,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00527130101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Primidone 50mg",
         "Medication Name": "Primidone",
         "Strength": "50mg",
@@ -7787,7 +7787,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68382004001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Promethazine HCl 12.5mg",
         "Medication Name": "Promethazine HCl",
         "Strength": "12.5mg",
@@ -7804,7 +7804,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591530710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Promethazine HCL 25mg",
         "Medication Name": "Promethazine HCL",
         "Strength": "25mg",
@@ -7821,7 +7821,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162052210",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Promethazine HCl 50mg",
         "Medication Name": "Promethazine HCl",
         "Strength": "50mg",
@@ -7838,7 +7838,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591555410",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Propranolol HCL 10mg",
         "Medication Name": "Propranolol HCL",
         "Strength": "10mg",
@@ -7855,7 +7855,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238207807",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Propranolol HCl 20mg",
         "Medication Name": "Propranolol HCl",
         "Strength": "20mg",
@@ -7872,7 +7872,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591555610",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Propranolol HCl 40mg",
         "Medication Name": "Propranolol HCl",
         "Strength": "40mg",
@@ -7889,7 +7889,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69292053601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Propranolol HCl 60mg",
         "Medication Name": "Propranolol HCl",
         "Strength": "60mg",
@@ -7906,7 +7906,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591555701",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Propranolol HCl 80mg",
         "Medication Name": "Propranolol HCl",
         "Strength": "80mg",
@@ -7923,7 +7923,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00228234810",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Propylthiouracil 50mg Tablet",
         "Medication Name": "Propylthiouracil",
         "Strength": "50mg",
@@ -7940,7 +7940,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00115351101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Pyridostigmine Bromide 60mg Tablet",
         "Medication Name": "Pyridostigmine Bromide",
         "Strength": "60mg",
@@ -7957,7 +7957,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729014717",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Quetiapine Fumarate 100mg",
         "Medication Name": "Quetiapine Fumarate",
         "Strength": "100mg",
@@ -7974,7 +7974,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16571080901",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Quetiapine Fumarate 150mg Tablet",
         "Medication Name": "Quetiapine Fumarate",
         "Strength": "150mg",
@@ -7991,7 +7991,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877024610",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Quetiapine Fumarate 200mg",
         "Medication Name": "Quetiapine Fumarate",
         "Strength": "200mg",
@@ -8008,7 +8008,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877024210",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Quetiapine Fumarate 25mg",
         "Medication Name": "Quetiapine Fumarate",
         "Strength": "25mg",
@@ -8025,7 +8025,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729014901",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Quetiapine Fumarate 300mg",
         "Medication Name": "Quetiapine Fumarate",
         "Strength": "300mg",
@@ -8042,7 +8042,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "52817023510",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ramelteon 8mg Tablet",
         "Medication Name": "Ramelteon",
         "Strength": "8mg",
@@ -8059,7 +8059,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180059102",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ramipril 10mg",
         "Medication Name": "Ramipril",
         "Strength": "10mg",
@@ -8076,7 +8076,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180058902",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ramipril 2.5mg",
         "Medication Name": "Ramipril",
         "Strength": "2.5mg",
@@ -8093,7 +8093,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180059002",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ramipril 5mg",
         "Medication Name": "Ramipril",
         "Strength": "5mg",
@@ -8110,7 +8110,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "63304001860",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ranolazine Extended Release (ER) 1000mg",
         "Medication Name": "Ranolazine Extended Release (ER)",
         "Strength": "1000mg",
@@ -8127,7 +8127,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "63304001760",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ranolazine Extended Release (ER) 500mg",
         "Medication Name": "Ranolazine Extended Release (ER)",
         "Strength": "500mg",
@@ -8144,7 +8144,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237015701",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Repaglinide 0.5mg Tablet",
         "Medication Name": "Repaglinide",
         "Strength": "0.5mg",
@@ -8161,7 +8161,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237015801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Repaglinide 1mg Tablet",
         "Medication Name": "Repaglinide",
         "Strength": "1mg",
@@ -8178,7 +8178,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237015901",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Repaglinide 2mg Tablet",
         "Medication Name": "Repaglinide",
         "Strength": "2mg",
@@ -8195,7 +8195,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862029084",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ribavirin 200mg Capsule",
         "Medication Name": "Ribavirin",
         "Strength": "200mg",
@@ -8212,7 +8212,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862020768",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ribavirin 200mg Tablet",
         "Medication Name": "Ribavirin",
         "Strength": "200mg",
@@ -8229,7 +8229,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180065806",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Rifampin 150mg Capsule",
         "Medication Name": "Rifampin",
         "Strength": "150mg",
@@ -8246,7 +8246,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180065907",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Rifampin 300mg",
         "Medication Name": "Rifampin",
         "Strength": "300mg",
@@ -8263,7 +8263,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "27241000250",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Risperidone 0.25mg",
         "Medication Name": "Risperidone",
         "Strength": "0.25mg",
@@ -8280,7 +8280,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "49884021255",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Risperidone 0.25mg Tablet Disintegrating",
         "Medication Name": "Risperidone",
         "Strength": "0.25mg",
@@ -8297,7 +8297,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "13668003605",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Risperidone 0.5mg",
         "Medication Name": "Risperidone",
         "Strength": "0.5mg",
@@ -8314,7 +8314,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "13668003705",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Risperidone 1mg",
         "Medication Name": "Risperidone",
         "Strength": "1mg",
@@ -8331,7 +8331,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "13668003805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Risperidone 2mg",
         "Medication Name": "Risperidone",
         "Strength": "2mg",
@@ -8348,7 +8348,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "13668003905",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Risperidone 3mg",
         "Medication Name": "Risperidone",
         "Strength": "3mg",
@@ -8365,7 +8365,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "13668004005",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Risperidone 4mg",
         "Medication Name": "Risperidone",
         "Strength": "4mg",
@@ -8382,7 +8382,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862068730",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ritonavir 100mg Tablet",
         "Medication Name": "Ritonavir",
         "Strength": "100mg",
@@ -8399,7 +8399,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237008834",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Rizatriptan Benzoate 10mg",
         "Medication Name": "Rizatriptan Benzoate",
         "Strength": "10mg",
@@ -8416,7 +8416,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462046599",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Rizatriptan Benzoate 5mg",
         "Medication Name": "Rizatriptan Benzoate",
         "Strength": "5mg",
@@ -8433,7 +8433,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69452015773",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Rizatriptan Benzoate ODT 10mg",
         "Medication Name": "Rizatriptan Benzoate",
         "Strength": "10mg",
@@ -8450,7 +8450,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462046706",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Rizatriptan Benzoate ODT 5mg",
         "Medication Name": "Rizatriptan Benzoate",
         "Strength": "5mg",
@@ -8467,7 +8467,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43547026810",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ropinirole 0.25mg",
         "Medication Name": "Ropinirole",
         "Strength": "0.25mg",
@@ -8484,7 +8484,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43547026910",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ropinirole 0.5mg",
         "Medication Name": "Ropinirole",
         "Strength": "0.5mg",
@@ -8501,7 +8501,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43547027010",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ropinirole 1mg",
         "Medication Name": "Ropinirole",
         "Strength": "1mg",
@@ -8518,7 +8518,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462025601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ropinirole 2mg",
         "Medication Name": "Ropinirole",
         "Strength": "2mg",
@@ -8535,7 +8535,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62332003431",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ropinirole 3mg",
         "Medication Name": "Ropinirole",
         "Strength": "3mg",
@@ -8552,7 +8552,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462025801",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ropinirole 4mg",
         "Medication Name": "Ropinirole",
         "Strength": "4mg",
@@ -8569,7 +8569,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462025901",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Ropinirole 5mg",
         "Medication Name": "Ropinirole",
         "Strength": "5mg",
@@ -8586,7 +8586,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72205000399",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Rosuvastatin 10mg",
         "Medication Name": "Rosuvastatin",
         "Strength": "10mg",
@@ -8603,7 +8603,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72205000499",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Rosuvastatin 20mg",
         "Medication Name": "Rosuvastatin",
         "Strength": "20mg",
@@ -8620,7 +8620,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "27808015803",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Rosuvastatin 40mg",
         "Medication Name": "Rosuvastatin",
         "Strength": "40mg",
@@ -8637,7 +8637,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237016805",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Rosuvastatin 5mg",
         "Medication Name": "Rosuvastatin",
         "Strength": "5mg",
@@ -8654,7 +8654,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180035305",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sertraline 100mg",
         "Medication Name": "Sertraline",
         "Strength": "100mg",
@@ -8671,7 +8671,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180035103",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sertraline 25mg",
         "Medication Name": "Sertraline",
         "Strength": "25mg",
@@ -8688,7 +8688,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180035205",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sertraline 50mg",
         "Medication Name": "Sertraline",
         "Strength": "50mg",
@@ -8705,7 +8705,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60219175303",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sildenafil Citrate 100mg",
         "Medication Name": "Sildenafil Citrate",
         "Strength": "100mg",
@@ -8722,7 +8722,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162035111",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sildenafil Citrate 20mg",
         "Medication Name": "Sildenafil Citrate",
         "Strength": "20mg",
@@ -8739,7 +8739,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60219175103",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sildenafil Citrate 25mg",
         "Medication Name": "Sildenafil Citrate",
         "Strength": "25mg",
@@ -8756,7 +8756,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60219175203",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sildenafil Citrate 50mg",
         "Medication Name": "Sildenafil Citrate",
         "Strength": "50mg",
@@ -8773,7 +8773,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180047803",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Simvastatin 10mg",
         "Medication Name": "Simvastatin",
         "Strength": "10mg",
@@ -8790,7 +8790,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180047903",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Simvastatin 20mg",
         "Medication Name": "Simvastatin",
         "Strength": "20mg",
@@ -8807,7 +8807,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180046403",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Simvastatin 40mg",
         "Medication Name": "Simvastatin",
         "Strength": "40mg",
@@ -8824,7 +8824,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729015615",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Simvastatin 5mg",
         "Medication Name": "Simvastatin",
         "Strength": "5mg",
@@ -8841,7 +8841,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180046503",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Simvastatin 80mg",
         "Medication Name": "Simvastatin",
         "Strength": "80mg",
@@ -8858,7 +8858,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093106001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sotalol HCl 120mg",
         "Medication Name": "Sotalol HCl",
         "Strength": "120mg",
@@ -8875,7 +8875,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093106201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sotalol HCl 160mg",
         "Medication Name": "Sotalol HCl",
         "Strength": "160mg",
@@ -8892,7 +8892,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093106301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sotalol HCl 240mg",
         "Medication Name": "Sotalol HCl",
         "Strength": "240mg",
@@ -8909,7 +8909,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093106101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sotalol HCl 80mg",
         "Medication Name": "Sotalol HCl",
         "Strength": "80mg",
@@ -8926,7 +8926,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729022716",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Spironolactone 100mg",
         "Medication Name": "Spironolactone",
         "Strength": "100mg",
@@ -8943,7 +8943,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729022517",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Spironolactone 25mg",
         "Medication Name": "Spironolactone",
         "Strength": "25mg",
@@ -8960,7 +8960,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729022616",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Spironolactone 50mg",
         "Medication Name": "Spironolactone",
         "Strength": "50mg",
@@ -8977,7 +8977,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093221005",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sucralfate 1gm Tablet",
         "Medication Name": "Sucralfate",
         "Strength": "1gm",
@@ -8994,7 +8994,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162027150",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sulfamethoxazole / Trimethoprim 400mg80mg",
         "Medication Name": "Sulfamethoxazole / Trimethoprim",
         "Strength": "400mg-80mg",
@@ -9011,7 +9011,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162027250",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sulfamethoxazole / Trimethoprim 800mg160mg",
         "Medication Name": "Sulfamethoxazole / Trimethoprim",
         "Strength": "800mg-160mg",
@@ -9028,7 +9028,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62756052269",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sumatriptan Succinate 100mg",
         "Medication Name": "Sumatriptan Succinate",
         "Strength": "100mg",
@@ -9045,7 +9045,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111029198",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sumatriptan Succinate 25mg",
         "Medication Name": "Sumatriptan Succinate",
         "Strength": "25mg",
@@ -9062,7 +9062,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111029298",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Sumatriptan Succinate 50mg",
         "Medication Name": "Sumatriptan Succinate",
         "Strength": "50mg",
@@ -9079,7 +9079,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111052501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tacrolimus 0.5mg",
         "Medication Name": "Tacrolimus",
         "Strength": "0.5mg",
@@ -9096,7 +9096,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70748022001",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tacrolimus 1mg",
         "Medication Name": "Tacrolimus",
         "Strength": "1mg",
@@ -9113,7 +9113,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70748022101",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tacrolimus 5mg",
         "Medication Name": "Tacrolimus",
         "Strength": "5mg",
@@ -9130,7 +9130,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729037116",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tadalafil 10mg",
         "Medication Name": "Tadalafil",
         "Strength": "10mg",
@@ -9147,7 +9147,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729036916",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tadalafil 2.5mg",
         "Medication Name": "Tadalafil",
         "Strength": "2.5mg",
@@ -9164,7 +9164,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729037216",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tadalafil 20mg",
         "Medication Name": "Tadalafil",
         "Strength": "20mg",
@@ -9181,7 +9181,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59651029960",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tamoxifen Citrate 10mg Tablet",
         "Medication Name": "Tamoxifen Citrate",
         "Strength": "10mg",
@@ -9198,7 +9198,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00378027493",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tamoxifen Citrate 20mg",
         "Medication Name": "Tamoxifen Citrate",
         "Strength": "20mg",
@@ -9215,7 +9215,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00228299650",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tamsulosin 0.4mg",
         "Medication Name": "Tamsulosin",
         "Strength": "0.4mg",
@@ -9232,7 +9232,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862086730",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Telmisartan 20mg",
         "Medication Name": "Telmisartan",
         "Strength": "20mg",
@@ -9249,7 +9249,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862086830",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Telmisartan 40mg",
         "Medication Name": "Telmisartan",
         "Strength": "40mg",
@@ -9266,7 +9266,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862086930",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Telmisartan 80mg",
         "Medication Name": "Telmisartan",
         "Strength": "80mg",
@@ -9283,7 +9283,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59746038606",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Terazosin HCl 10mg",
         "Medication Name": "Terazosin HCl",
         "Strength": "10mg",
@@ -9300,7 +9300,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59746038306",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Terazosin HCl 1mg",
         "Medication Name": "Terazosin HCl",
         "Strength": "1mg",
@@ -9317,7 +9317,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "23155073601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Terazosin HCl 2mg",
         "Medication Name": "Terazosin HCl",
         "Strength": "2mg",
@@ -9334,7 +9334,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59746038506",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Terazosin HCl 5mg",
         "Medication Name": "Terazosin HCl",
         "Strength": "5mg",
@@ -9351,7 +9351,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111017910",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tizanidine 2mg",
         "Medication Name": "Tizanidine",
         "Strength": "2mg",
@@ -9368,7 +9368,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "55111018010",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tizanidine 4mg",
         "Medication Name": "Tizanidine",
         "Strength": "4mg",
@@ -9385,7 +9385,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300023916",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tolterodine Tartrate 1mg",
         "Medication Name": "Tolterodine Tartrate",
         "Strength": "1mg",
@@ -9402,7 +9402,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "29300024016",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Tolterodine Tartrate 2mg",
         "Medication Name": "Tolterodine Tartrate",
         "Strength": "2mg",
@@ -9419,7 +9419,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69097012415",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Topiramate 100mg",
         "Medication Name": "Topiramate",
         "Strength": "100mg",
@@ -9436,7 +9436,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69097012515",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Topiramate 200mg",
         "Medication Name": "Topiramate",
         "Strength": "200mg",
@@ -9453,7 +9453,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69097012215",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Topiramate 25mg",
         "Medication Name": "Topiramate",
         "Strength": "25mg",
@@ -9470,7 +9470,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69097012315",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Topiramate 50mg",
         "Medication Name": "Topiramate",
         "Strength": "50mg",
@@ -9487,7 +9487,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722053201",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Torsemide 100mg",
         "Medication Name": "Torsemide",
         "Strength": "100mg",
@@ -9504,7 +9504,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50111091601",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Torsemide 10mg",
         "Medication Name": "Torsemide",
         "Strength": "10mg",
@@ -9521,7 +9521,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50111091701",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Torsemide 20mg",
         "Medication Name": "Torsemide",
         "Strength": "20mg",
@@ -9538,7 +9538,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50111091501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Torsemide 5mg",
         "Medication Name": "Torsemide",
         "Strength": "5mg",
@@ -9555,7 +9555,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50111056103",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Trazodone 100mg",
         "Medication Name": "Trazodone",
         "Strength": "100mg",
@@ -9572,7 +9572,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50111045002",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Trazodone 150mg",
         "Medication Name": "Trazodone",
         "Strength": "150mg",
@@ -9589,7 +9589,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50111056003",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Trazodone 50mg",
         "Medication Name": "Trazodone",
         "Strength": "50mg",
@@ -9606,7 +9606,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "13668033301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Trazodone HCl 300mg",
         "Medication Name": "Trazodone HCl",
         "Strength": "300mg",
@@ -9623,7 +9623,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "23155053006",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Trospium Chloride 20mg Tablet",
         "Medication Name": "Trospium Chloride",
         "Strength": "20mg",
@@ -9640,7 +9640,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237004330",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valacyclovir 1000mg",
         "Medication Name": "Valacyclovir",
         "Strength": "1000mg",
@@ -9657,7 +9657,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237004290",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valacyclovir 500mg",
         "Medication Name": "Valacyclovir",
         "Strength": "500mg",
@@ -9674,7 +9674,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342006410",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valsartan 160mg",
         "Medication Name": "Valsartan",
         "Strength": "160mg",
@@ -9691,7 +9691,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342006510",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valsartan 320mg",
         "Medication Name": "Valsartan",
         "Strength": "320mg",
@@ -9708,7 +9708,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59746036030",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valsartan 40mg",
         "Medication Name": "Valsartan",
         "Strength": "40mg",
@@ -9725,7 +9725,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59746036190",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valsartan 80mg",
         "Medication Name": "Valsartan",
         "Strength": "80mg",
@@ -9742,7 +9742,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342007510",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valsartan-Hydrochlorothiazide 160mg-12.5mg",
         "Medication Name": "Valsartan-Hydrochlorothiazide",
         "Strength": "160mg-12.5mg",
@@ -9759,7 +9759,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342007610",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valsartan-Hydrochlorothiazide 160mg-25mg",
         "Medication Name": "Valsartan-Hydrochlorothiazide",
         "Strength": "160mg-25mg",
@@ -9776,7 +9776,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342007710",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valsartan-Hydrochlorothiazide 320mg-12.5mg",
         "Medication Name": "Valsartan-Hydrochlorothiazide",
         "Strength": "320mg-12.5mg",
@@ -9793,7 +9793,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342007810",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valsartan-Hydrochlorothiazide 320mg-25mg",
         "Medication Name": "Valsartan-Hydrochlorothiazide",
         "Strength": "320mg-25mg",
@@ -9810,7 +9810,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "33342007410",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Valsartan-Hydrochlorothiazide 80mg-12.5mg",
         "Medication Name": "Valsartan-Hydrochlorothiazide",
         "Strength": "80mg-12.5mg",
@@ -9827,7 +9827,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180016613",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Vancomycin 125mg",
         "Medication Name": "Vancomycin",
         "Strength": "125mg",
@@ -9844,7 +9844,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877074395",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Varenicline Tartrate 0.5mg Tablet",
         "Medication Name": "Varenicline Tartrate",
         "Strength": "0.5mg",
@@ -9861,7 +9861,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877074495",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Varenicline Tartrate 1mg Tablet",
         "Medication Name": "Varenicline Tartrate",
         "Strength": "1mg",
@@ -9878,7 +9878,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62332001231",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Venlafaxine 100mg",
         "Medication Name": "Venlafaxine",
         "Strength": "100mg",
@@ -9895,7 +9895,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093914701",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Venlafaxine 25mg",
         "Medication Name": "Venlafaxine",
         "Strength": "25mg",
@@ -9912,7 +9912,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237017301",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Venlafaxine 37.5mg",
         "Medication Name": "Venlafaxine",
         "Strength": "37.5mg",
@@ -9929,7 +9929,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "57237017401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Venlafaxine 50mg",
         "Medication Name": "Venlafaxine",
         "Strength": "50mg",
@@ -9946,7 +9946,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62332001131",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Venlafaxine 75mg",
         "Medication Name": "Venlafaxine",
         "Strength": "75mg",
@@ -9963,7 +9963,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591034501",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Verapamil HCl 120mg",
         "Medication Name": "Verapamil HCl",
         "Strength": "120mg",
@@ -9980,7 +9980,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591040401",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Verapamil HCl 40mg",
         "Medication Name": "Verapamil HCl",
         "Strength": "40mg",
@@ -9997,7 +9997,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591034310",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Verapamil HCl 80mg",
         "Medication Name": "Verapamil HCl",
         "Strength": "80mg",
@@ -10014,7 +10014,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "27241006303",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Voriconazole 200mg Tablet",
         "Medication Name": "Voriconazole",
         "Strength": "200mg",
@@ -10031,7 +10031,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "43547037703",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Voriconazole 50mg Tablet",
         "Medication Name": "Voriconazole",
         "Strength": "50mg",
@@ -10048,7 +10048,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162076911",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Warfarin 10mg",
         "Medication Name": "Warfarin",
         "Strength": "10mg",
@@ -10065,7 +10065,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162076111",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Warfarin 1mg",
         "Medication Name": "Warfarin",
         "Strength": "1mg",
@@ -10082,7 +10082,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162076311",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Warfarin 2.5mg",
         "Medication Name": "Warfarin",
         "Strength": "2.5mg",
@@ -10099,7 +10099,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162076211",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Warfarin 2mg",
         "Medication Name": "Warfarin",
         "Strength": "2mg",
@@ -10116,7 +10116,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162076411",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Warfarin 3mg",
         "Medication Name": "Warfarin",
         "Strength": "3mg",
@@ -10133,7 +10133,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162076511",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Warfarin 4mg",
         "Medication Name": "Warfarin",
         "Strength": "4mg",
@@ -10150,7 +10150,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162076611",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Warfarin 5mg",
         "Medication Name": "Warfarin",
         "Strength": "5mg",
@@ -10167,7 +10167,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162076711",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Warfarin 6mg",
         "Medication Name": "Warfarin",
         "Strength": "6mg",
@@ -10184,7 +10184,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162076811",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Warfarin 7.5mg",
         "Medication Name": "Warfarin",
         "Strength": "7.5mg",
@@ -10201,7 +10201,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62756026002",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Zonisamide 100mg",
         "Medication Name": "Zonisamide",
         "Strength": "100mg",
@@ -10218,7 +10218,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62756025802",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Zonisamide 25mg",
         "Medication Name": "Zonisamide",
         "Strength": "25mg",
@@ -10235,7 +10235,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62756025902",
-        "plans included": "5$",
+        "plans included": "5$,10$",
         "Label": "Zonisamide 50mg",
         "Medication Name": "Zonisamide",
         "Strength": "50mg",
@@ -10252,7 +10252,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00168005515",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Betamethasone Dipropionate 0.05% 15g Tube of Cream",
         "Medication Name": "Betamethasone Dipropionate",
         "Strength": "0.05%",
@@ -10269,7 +10269,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72578009301",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Betamethasone Dipropionate 0.05% Tube of Ointment 15",
         "Medication Name": "Betamethasone Dipropionate",
         "Strength": "0.05%",
@@ -10286,7 +10286,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "21922001604",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Clobetasol Propionate 0.05% 15g Tube of Cream",
         "Medication Name": "Clobetasol Propionate",
         "Strength": "0.05%",
@@ -10303,7 +10303,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "21922001704",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Clobetasol Propionate 0.05% 15g Tube of Ointment",
         "Medication Name": "Clobetasol Propionate",
         "Strength": "0.05%",
@@ -10320,7 +10320,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "21922001605",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Clobetasol Propionate 0.05% 30g Tube of Cream",
         "Medication Name": "Clobetasol Propionate",
         "Strength": "0.05%",
@@ -10337,7 +10337,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "21922001705",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Clobetasol Propionate 0.05% 30g Tube of Ointment",
         "Medication Name": "Clobetasol Propionate",
         "Strength": "0.05%",
@@ -10354,7 +10354,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672125806",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Clobetasol Propionate 0.05% 45g Tube of Cream",
         "Medication Name": "Clobetasol Propionate",
         "Strength": "0.05%",
@@ -10371,7 +10371,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "21922001706",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Clobetasol Propionate 0.05% 45g Tube of Ointment",
         "Medication Name": "Clobetasol Propionate",
         "Strength": "0.05%",
@@ -10388,7 +10388,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69238153206",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Clobetasol Propionate 0.05% Cream 60g",
         "Medication Name": "Clobetasol Propionate",
         "Strength": "0.05%",
@@ -10405,7 +10405,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591350804",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Clonidine 0.1mg",
         "Medication Name": "Clonidine",
         "Strength": "0.1mg",
@@ -10422,7 +10422,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69396000120",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Clotrimazole 1%",
         "Medication Name": "Clotrimazole",
         "Strength": "1%",
@@ -10439,7 +10439,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672404806",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Clotrimazole Betamethasone 1%/0.05%",
         "Medication Name": "Clotrimazole Betamethasone",
         "Strength": "1%-0.05%",
@@ -10456,7 +10456,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722062260",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Dabigatran Etexilate Mesylate 150mg",
         "Medication Name": "Dabigatran Etexilate Mesylate",
         "Strength": "150mg",
@@ -10473,7 +10473,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722062160",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Dabigatran Etexilate Mesylate 75mg Bottle of Capsules 60",
         "Medication Name": "Dabigatran Etexilate Mesylate",
         "Strength": "75mg",
@@ -10490,7 +10490,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "47781060730",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Disulfiram 250mg Tablet",
         "Medication Name": "Disulfiram",
         "Strength": "250mg",
@@ -10507,7 +10507,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72305010030",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Euthyrox (levothyroxine) 100mcg 30 Tablets",
         "Medication Name": "Euthyrox (levothyroxine)",
         "Strength": "100mcg",
@@ -10524,7 +10524,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72305011230",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Euthyrox (levothyroxine) 112mcg 30 Tablets",
         "Medication Name": "Euthyrox (levothyroxine)",
         "Strength": "112mcg",
@@ -10541,7 +10541,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72305012530",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Euthyrox (levothyroxine) 125mcg 30 Tablets",
         "Medication Name": "Euthyrox (levothyroxine)",
         "Strength": "125mcg",
@@ -10558,7 +10558,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72305013730",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Euthyrox (levothyroxine) 137mcg 30 Tablets",
         "Medication Name": "Euthyrox (levothyroxine)",
         "Strength": "137mcg",
@@ -10575,7 +10575,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72305015030",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Euthyrox (levothyroxine) 150mcg 30 Tablets",
         "Medication Name": "Euthyrox (levothyroxine)",
         "Strength": "150mcg",
@@ -10592,7 +10592,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72305017530",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Euthyrox (levothyroxine) 175mcg 30 Tablets",
         "Medication Name": "Euthyrox (levothyroxine)",
         "Strength": "175mcg",
@@ -10609,7 +10609,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72305002530",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Euthyrox (levothyroxine) 25mcg 30 Tablets",
         "Medication Name": "Euthyrox (levothyroxine)",
         "Strength": "25mcg",
@@ -10626,7 +10626,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72305005030",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Euthyrox (levothyroxine) 50mcg 30 Tablets",
         "Medication Name": "Euthyrox (levothyroxine)",
         "Strength": "50mcg",
@@ -10643,7 +10643,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72305007530",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Euthyrox (levothyroxine) 75mcg 30 Tablets",
         "Medication Name": "Euthyrox (levothyroxine)",
         "Strength": "75mcg",
@@ -10660,7 +10660,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72305008830",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Euthyrox (levothyroxine) 88mcg 30 Tablets",
         "Medication Name": "Euthyrox (levothyroxine)",
         "Strength": "88mcg",
@@ -10677,7 +10677,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72578008706",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Fluocinonide 0.10% Tube of Cream 30",
         "Medication Name": "Fluocinonide",
         "Strength": "0.10%",
@@ -10694,7 +10694,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00054327099",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Fluticasone Propionate Nasal Spray 16 mL",
         "Medication Name": "Fluticasone Propionate",
         "Strength": "50mcg",
@@ -10711,7 +10711,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672300302",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Hydrocortisone 0.025",
         "Medication Name": "Hydrocortisone",
         "Strength": "2.50%",
@@ -10728,7 +10728,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00168014630",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Hydrocortisone 0.025",
         "Medication Name": "Hydrocortisone",
         "Strength": "2.50%",
@@ -10745,7 +10745,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00168002031",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Hydrocortisone 1% Tube of Ointment 28.35",
         "Medication Name": "Hydrocortisone",
         "Strength": "1%",
@@ -10762,7 +10762,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "45802043803",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Hydrocortisone Cream 1%",
         "Medication Name": "Hydrocortisone",
         "Strength": "1%",
@@ -10779,7 +10779,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "62559043130",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Hydrocortisone Perianal 2.5%",
         "Medication Name": "Hydrocortisone Perianal",
         "Strength": "2.50%",
@@ -10796,7 +10796,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180095401",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Hydrocortisone Valerate Cream 0.2%",
         "Medication Name": "Hydrocortisone Valerate",
         "Strength": "0.20%",
@@ -10813,7 +10813,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "21922002504",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Ketoconazole 2% 15g Tube of Cream",
         "Medication Name": "Ketoconazole",
         "Strength": "2%",
@@ -10830,7 +10830,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "21922002505",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Ketoconazole 2% 30g Tube of Cream",
         "Medication Name": "Ketoconazole",
         "Strength": "2%",
@@ -10847,7 +10847,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60505100302",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Ketorolac Tromethamine Ophthalmic Solution 0.5% 10mL",
         "Medication Name": "Ketorolac Tromethamine",
         "Strength": "0.5%",
@@ -10856,15 +10856,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Non-Pill",
         "Brand_Generic": "Generic",
         "Insurance Eligible": "Yes",
-        "Cost per unit": "$5.8100000",
-        "Price Transparency  Manufacturing Cost": "$5.81",
+        "Cost per unit": "10$.8100000",
+        "Price Transparency  Manufacturing Cost": "10$.81",
         "Price Transparency  15% Mark Up": "$0.88",
         "Unit Billing Price (Total Price per unit w/markup) ": "$0.67",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "60505100301",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Ketorolac Tromethamine Ophthalmic Solution 0.5% 5mL",
         "Medication Name": "Ketorolac Tromethamine",
         "Strength": "0.5%",
@@ -10881,7 +10881,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "17478071710",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Ketotifen Fumarate 0.035%",
         "Medication Name": "Ketotifen Fumarate",
         "Strength": "0.035%",
@@ -10898,7 +10898,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70069042101",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Latanoprost 0.005% Solution Dropper 2.5",
         "Medication Name": "Latanoprost",
         "Strength": "0.00005",
@@ -10915,7 +10915,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50742018212",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Leucovorin Calcium 10mg Tablet",
         "Medication Name": "Leucovorin Calcium",
         "Strength": "10mg",
@@ -10932,7 +10932,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50742018324",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Leucovorin Calcium 15mg Tablet",
         "Medication Name": "Leucovorin Calcium",
         "Strength": "15mg",
@@ -10949,7 +10949,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50742018425",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Leucovorin Calcium 25mg Tablet",
         "Medication Name": "Leucovorin Calcium",
         "Strength": "25mg",
@@ -10966,7 +10966,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "50742018101",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Leucovorin Calcium 5mg Tablet",
         "Medication Name": "Leucovorin Calcium",
         "Strength": "5mg",
@@ -10983,7 +10983,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162091838",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Lidocaine 5% Ointment",
         "Medication Name": "Lidocaine",
         "Strength": "5%",
@@ -11000,7 +11000,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591352530",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Lidocaine 5% Patch ",
         "Medication Name": "Lidocaine",
         "Strength": "5%",
@@ -11017,7 +11017,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60432046400",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Lidocaine HCl 2%",
         "Medication Name": "Lidocaine HCl",
         "Strength": "2%",
@@ -11034,7 +11034,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59762005001",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Methylprednisolone 16mg",
         "Medication Name": "Methylprednisolone",
         "Strength": "16mg",
@@ -11051,7 +11051,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59762005101",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Methylprednisolone 32mg",
         "Medication Name": "Methylprednisolone",
         "Strength": "32mg",
@@ -11068,7 +11068,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "72647033101",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Methylprednisolone 4mg",
         "Medication Name": "Methylprednisolone",
         "Strength": "4mg",
@@ -11085,7 +11085,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "42806040021",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Methylprednisolone 4mg",
         "Medication Name": "Methylprednisolone ",
         "Strength": "4mg",
@@ -11102,7 +11102,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "59762004901",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Methylprednisolone 8mg",
         "Medication Name": "Methylprednisolone",
         "Strength": "8mg",
@@ -11119,7 +11119,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69396001420",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Miconazole Antifungal 2% Tube of Cream 30",
         "Medication Name": "Miconazole Antifungal",
         "Strength": "2%",
@@ -11136,7 +11136,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "61269073041",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Miconazole Nitrate Vaginal Cream 2%",
         "Medication Name": "Miconazole Nitrate",
         "Strength": "2%",
@@ -11153,7 +11153,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093101042",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Mupirocin 2%",
         "Medication Name": "Mupirocin",
         "Strength": "2%",
@@ -11170,7 +11170,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "24208079535",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Neomycin-Polymyxin-Dexameth 3.5-10000-0.1 Tube of Ointment 3.5",
         "Medication Name": "Neomycin-Polymyxin-Dexameth",
         "Strength": "3.5-10000-0.1",
@@ -11179,15 +11179,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Non-pill",
         "Brand_Generic": "Generic",
         "Insurance Eligible": "Yes",
-        "Cost per unit": "$5.6400000",
-        "Price Transparency  Manufacturing Cost": "$5.64",
+        "Cost per unit": "10$.6400000",
+        "Price Transparency  Manufacturing Cost": "10$.64",
         "Price Transparency  15% Mark Up": "$0.85",
         "Unit Billing Price (Total Price per unit w/markup) ": "$1.85",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "42806050109",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Nicardipine HCl 20mg Capsule",
         "Medication Name": "Nicardipine HCl",
         "Strength": "20mg",
@@ -11204,7 +11204,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "42806050209",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Nicardipine HCl 30mg Capsule",
         "Medication Name": "Nicardipine HCl",
         "Strength": "30mg",
@@ -11213,15 +11213,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Pill",
         "Brand_Generic": "Generic",
         "Insurance Eligible": "Yes",
-        "Cost per unit": "$5.5000000",
-        "Price Transparency  Manufacturing Cost": "$5.50",
+        "Cost per unit": "10$.5000000",
+        "Price Transparency  Manufacturing Cost": "10$.50",
         "Price Transparency  15% Mark Up": "$0.83",
         "Unit Billing Price (Total Price per unit w/markup) ": "$6.33",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "68180087573",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norethindrone & Ethinyl Estradiol 0.4mg-35mcg Pack of Tablets 28",
         "Medication Name": "Norethindrone & Ethinyl Estradiol",
         "Strength": "0.4mg-35mcg",
@@ -11238,7 +11238,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00555902742",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norethindrone Ace & Ethinyl Estradiol 1.5mg/30mcg",
         "Medication Name": "Norethindrone Acetate & Ethinyl Estradiol",
         "Strength": "1.5mg-30mcg",
@@ -11255,7 +11255,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00555902542",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norethindrone Ace & Ethinyl Estradiol 1mg/20mcg",
         "Medication Name": "Norethindrone Acetate & Ethinyl Estradiol",
         "Strength": "1mg-20mcg",
@@ -11272,7 +11272,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462050329",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norethindrone Ace & Ethinyl Estradiol-FE 1.5mg/30mcg",
         "Medication Name": "Norethindrone Acetate & Ethinyl Estradiol",
         "Strength": "1.5mg-30mcg",
@@ -11289,7 +11289,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68180091173",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norethindrone Ace-Eth Estradiol-FE 1mg-20mcg Pack of Chewable Tablets 28",
         "Medication Name": "Norethindrone Ace-Eth Estradiol-FE",
         "Strength": "1mg-20mcg",
@@ -11306,7 +11306,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093532862",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norethindrone Ace-Ethinyl Estradiol-FE 1mg-20mcg Pack of Tablets 28",
         "Medication Name": "Norethindrone Ace-Ethinyl Estradiol-FE",
         "Strength": "1mg-20mcg",
@@ -11323,7 +11323,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00555901058",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norethindrone Acetate & Ethinyl Estradiol 1-35MG-MCG",
         "Medication Name": "Norethindrone Acetate & Ethinyl Estradiol",
         "Strength": "1mg-35mcg",
@@ -11340,7 +11340,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00378728353",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norethindrone Acetate & Ethinyl Estradiol-1mg/20mcg",
         "Medication Name": "Norethindrone Acetate & Ethinyl Estradiol",
         "Strength": "1mg-20mcg",
@@ -11357,7 +11357,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162047509",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norethindrone Acetate 5mg",
         "Medication Name": "Norethindrone Acetate",
         "Strength": "5mg",
@@ -11374,7 +11374,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462056529",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norgestimate / Ethinyl Estradiol 0.18mg0.215mg0.25mg/0.035mg",
         "Medication Name": "Norgestimate / Ethinyl Estradiol",
         "Strength": "0.18/35-0.215/35-0.25/35 mg/mcg",
@@ -11391,7 +11391,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462030929",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norgestimate-Eth Estradiol 0.25-35mg-mcg Pack of Tablets 28",
         "Medication Name": "Norgestimate-Eth Estradiol",
         "Strength": "0.25-35mg-mcg",
@@ -11408,7 +11408,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00093214062",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norgestimate-Ethinyl Estradiol 0.18-25/0.215-25/0.25-25 mg-mcg",
         "Medication Name": "Norgestimate & Ethinyl Estradiol",
         "Strength": "0.18/25-0.215/25-0.25/25 mg/mcg",
@@ -11425,7 +11425,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00555904958",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Norgestrel & Ethinyl Estradiol 0.3mg-30mcg",
         "Medication Name": "Norgestrel & Ethinyl Estradiol",
         "Strength": "0.3mg-30mcg",
@@ -11442,7 +11442,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00713067815",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Nystatin 100000 unit/g",
         "Medication Name": "Nystatin",
         "Strength": "100000 unit/g",
@@ -11459,7 +11459,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "45802005911",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Nystatin 100000 unit/g Tube of Cream",
         "Medication Name": "Nystatin",
         "Strength": "100000 unit/g",
@@ -11476,7 +11476,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "60432053760",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Nystatin 100000 Unit/mL Bottle of Suspension 60",
         "Medication Name": "Nystatin",
         "Strength": "100000 Unit/mL",
@@ -11493,7 +11493,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00472016630",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Nystatin 100000 units/g",
         "Medication Name": "Nystatin",
         "Strength": "100000 units/g",
@@ -11510,7 +11510,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672126301",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Nystatin-Triamcinolone 100000 unit/g 0.1% Tube of Cream 15",
         "Medication Name": "Nystatin-Triamcinolone",
         "Strength": "100000 unit/g 0.1%",
@@ -11527,7 +11527,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672126302",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Nystatin-Triamcinolone 100000 unit/g 0.1% Tube of Cream 30",
         "Medication Name": "Nystatin-Triamcinolone",
         "Strength": "100000 unit/g 0.1%",
@@ -11544,7 +11544,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462079965",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Nystatin-Triamcinolone 100K unit/0.1% Ointment 60g",
         "Medication Name": "Nystatin-Triamcinolone",
         "Strength": "100000 unit/g 0.1%",
@@ -11553,15 +11553,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Non-pill",
         "Brand_Generic": "Generic",
         "Insurance Eligible": "Yes",
-        "Cost per unit": "$5.6300000",
-        "Price Transparency  Manufacturing Cost": "$5.63",
+        "Cost per unit": "10$.6300000",
+        "Price Transparency  Manufacturing Cost": "10$.63",
         "Price Transparency  15% Mark Up": "$0.85",
         "Unit Billing Price (Total Price per unit w/markup) ": "$0.11",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "68462031465",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Nystatin-Triamcinolone Cream 100000 unit/g-0.1%",
         "Medication Name": "Nystatin-Triamcinolone",
         "Strength": "100000 unit/g 0.1%",
@@ -11578,7 +11578,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65162000203",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Prasugrel HCl 10mg",
         "Medication Name": "Prasugrel HCl",
         "Strength": "10mg",
@@ -11595,7 +11595,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "16729027210",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Prasugrel HCl 5mg Tablet",
         "Medication Name": "Prasugrel HCl",
         "Strength": "5mg",
@@ -11612,7 +11612,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00603533815",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Prednisone 10mg Tablet Therapy Pack 21",
         "Medication Name": "Prednisone",
         "Strength": "10mg",
@@ -11629,7 +11629,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591505221",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Prednisone 5mg Tablet Therapy Pack 21",
         "Medication Name": "Prednisone",
         "Strength": "5mg",
@@ -11646,7 +11646,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00046110081",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Premarin 0.3mg Tablet",
         "Medication Name": "Premarin",
         "Strength": "0.3mg",
@@ -11655,15 +11655,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Pill",
         "Brand_Generic": "Brand",
         "Insurance Eligible": "No",
-        "Cost per unit": "$5.1624700",
-        "Price Transparency  Manufacturing Cost": "$5.16",
+        "Cost per unit": "10$.1624700",
+        "Price Transparency  Manufacturing Cost": "10$.16",
         "Price Transparency  15% Mark Up": "$0.78",
-        "Unit Billing Price (Total Price per unit w/markup) ": "$5.94",
+        "Unit Billing Price (Total Price per unit w/markup) ": "10$.94",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "00046110181",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Premarin 0.45mg Tablet",
         "Medication Name": "Premarin",
         "Strength": "0.45mg",
@@ -11672,15 +11672,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Pill",
         "Brand_Generic": "Brand",
         "Insurance Eligible": "No",
-        "Cost per unit": "$5.1624700",
-        "Price Transparency  Manufacturing Cost": "$5.16",
+        "Cost per unit": "10$.1624700",
+        "Price Transparency  Manufacturing Cost": "10$.16",
         "Price Transparency  15% Mark Up": "$0.78",
-        "Unit Billing Price (Total Price per unit w/markup) ": "$5.94",
+        "Unit Billing Price (Total Price per unit w/markup) ": "10$.94",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "00046110281",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Premarin 0.625mg Tablet",
         "Medication Name": "Premarin",
         "Strength": "0.625mg",
@@ -11689,15 +11689,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Pill",
         "Brand_Generic": "Brand",
         "Insurance Eligible": "No",
-        "Cost per unit": "$5.1624700",
-        "Price Transparency  Manufacturing Cost": "$5.16",
+        "Cost per unit": "10$.1624700",
+        "Price Transparency  Manufacturing Cost": "10$.16",
         "Price Transparency  15% Mark Up": "$0.78",
-        "Unit Billing Price (Total Price per unit w/markup) ": "$5.94",
+        "Unit Billing Price (Total Price per unit w/markup) ": "10$.94",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "00046110381",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Premarin 0.9mg Tablet",
         "Medication Name": "Premarin",
         "Strength": "0.9mg",
@@ -11706,15 +11706,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Pill",
         "Brand_Generic": "Brand",
         "Insurance Eligible": "No",
-        "Cost per unit": "$5.1624700",
-        "Price Transparency  Manufacturing Cost": "$5.16",
+        "Cost per unit": "10$.1624700",
+        "Price Transparency  Manufacturing Cost": "10$.16",
         "Price Transparency  15% Mark Up": "$0.78",
-        "Unit Billing Price (Total Price per unit w/markup) ": "$5.94",
+        "Unit Billing Price (Total Price per unit w/markup) ": "10$.94",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "00046110481",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Premarin 1.25mg Tablet",
         "Medication Name": "Premarin",
         "Strength": "1.25mg",
@@ -11723,15 +11723,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Pill",
         "Brand_Generic": "Brand",
         "Insurance Eligible": "No",
-        "Cost per unit": "$5.1624700",
-        "Price Transparency  Manufacturing Cost": "$5.16",
+        "Cost per unit": "10$.1624700",
+        "Price Transparency  Manufacturing Cost": "10$.16",
         "Price Transparency  15% Mark Up": "$0.78",
-        "Unit Billing Price (Total Price per unit w/markup) ": "$5.94",
+        "Unit Billing Price (Total Price per unit w/markup) ": "10$.94",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "00713052612",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Promethazine HCl Suppository 25mg",
         "Medication Name": "Promethazine HCl",
         "Strength": "25mg",
@@ -11748,7 +11748,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70436015541",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Promethazine-DM 6.25-15mg/5mL Bottle of Syrup 118",
         "Medication Name": "Promethazine-DM",
         "Strength": "6.25-15mg/5mL",
@@ -11757,15 +11757,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Non-pill",
         "Brand_Generic": "Generic",
         "Insurance Eligible": "Yes",
-        "Cost per unit": "$5.6800000",
-        "Price Transparency  Manufacturing Cost": "$5.68",
+        "Cost per unit": "10$.6800000",
+        "Price Transparency  Manufacturing Cost": "10$.68",
         "Price Transparency  15% Mark Up": "$0.86",
         "Unit Billing Price (Total Price per unit w/markup) ": "$0.06",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "72205020132",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Roflumilast 250mcg Tablet",
         "Medication Name": "Roflumilast",
         "Strength": "250mcg",
@@ -11782,7 +11782,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722062390",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Roflumilast 500mcg Tablet",
         "Medication Name": "Roflumilast",
         "Strength": "500mcg",
@@ -11799,7 +11799,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00591225804",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Scopolamine 1mg Patch",
         "Medication Name": "Scopolamine",
         "Strength": "1mg",
@@ -11808,15 +11808,15 @@ const localMedicationList = [
         "Pill_Nonpill": "Pill",
         "Brand_Generic": "Generic",
         "Insurance Eligible": "Yes",
-        "Cost per unit": "$5.8325000",
-        "Price Transparency  Manufacturing Cost": "$5.83",
+        "Cost per unit": "10$.8325000",
+        "Price Transparency  Manufacturing Cost": "10$.83",
         "Price Transparency  15% Mark Up": "$0.88",
         "Unit Billing Price (Total Price per unit w/markup) ": "$6.71",
         "Special Handling": "None"
     },
     {
         "Representative Product SKU": "00115136529",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Sevelamer Carbonate 0.8gm Packet",
         "Medication Name": "Sevelamer Carbonate",
         "Strength": "0.8gm",
@@ -11833,7 +11833,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "69452012719",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Sevelamer Carbonate 2.4gm Packet",
         "Medication Name": "Sevelamer Carbonate",
         "Strength": "2.4gm",
@@ -11850,7 +11850,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "24979018646",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Sevelamer Carbonate 800mg",
         "Medication Name": "Sevelamer Carbonate",
         "Strength": "800mg",
@@ -11867,7 +11867,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462044626",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Sevelamer HCl 400mg Tablet",
         "Medication Name": "Sevelamer HCl",
         "Strength": "400mg",
@@ -11884,7 +11884,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "68462044718",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Sevelamer HCl 800mg Tablet",
         "Medication Name": "Sevelamer HCl",
         "Strength": "800mg",
@@ -11901,7 +11901,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877012420",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Silver Sulfadiazine 1% 20g Tube of Cream",
         "Medication Name": "Silver Sulfadiazine",
         "Strength": "1%",
@@ -11918,7 +11918,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877012425",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Silver Sulfadiazine 1% 25g Tube of Cream",
         "Medication Name": "Silver Sulfadiazine",
         "Strength": "1%",
@@ -11935,7 +11935,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877012450",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Silver Sulfadiazine 1% 50g Jar of Cream",
         "Medication Name": "Silver Sulfadiazine",
         "Strength": "1%",
@@ -11952,7 +11952,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877012405",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Silver Sulfadiazine 1% 50g Tube of Cream",
         "Medication Name": "Silver Sulfadiazine",
         "Strength": "1%",
@@ -11969,7 +11969,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877012485",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Silver Sulfadiazine 1% 85g Tube of Cream",
         "Medication Name": "Silver Sulfadiazine",
         "Strength": "1%",
@@ -11986,7 +11986,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877074601",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Sirolimus 0.5mg Tablet",
         "Medication Name": "Sirolimus",
         "Strength": "0.5mg",
@@ -12003,7 +12003,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877074701",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Sirolimus 1mg Tablet",
         "Medication Name": "Sirolimus",
         "Strength": "1mg",
@@ -12020,7 +12020,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877074801",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Sirolimus 2mg Tablet",
         "Medication Name": "Sirolimus",
         "Strength": "2mg",
@@ -12037,7 +12037,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "51672208001",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Terbinafine HCl Cream 1%",
         "Medication Name": "Terbinafine HCl",
         "Strength": "1%",
@@ -12054,7 +12054,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "70069013101",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Tobramycin Ophthalmic Solution 0.3%",
         "Medication Name": "Tobramycin",
         "Strength": "0.3%",
@@ -12071,7 +12071,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877031780",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Triamcinolone Acetonide 0.00025",
         "Medication Name": "Triamcinolone Acetonide",
         "Strength": "0.025%",
@@ -12088,7 +12088,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877031715",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Triamcinolone Acetonide 0.00025",
         "Medication Name": "Triamcinolone Acetonide",
         "Strength": "0.025%",
@@ -12105,7 +12105,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "45802006436",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Triamcinolone Acetonide 0.001",
         "Medication Name": "Triamcinolone Acetonide",
         "Strength": "0.1%",
@@ -12122,7 +12122,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "45802005535",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Triamcinolone Acetonide 0.001",
         "Medication Name": "Triamcinolone Acetonide",
         "Strength": "0.1%",
@@ -12139,7 +12139,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "67877031815",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Triamcinolone Acetonide 0.005",
         "Medication Name": "Triamcinolone Acetonide",
         "Strength": "0.5%",
@@ -12156,7 +12156,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "52565004815",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Triamcinolone Acetonide 0.005",
         "Medication Name": "Triamcinolone Acetonide",
         "Strength": "0.5%",
@@ -12173,7 +12173,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "00713022915",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Triamcinolone Acetonide 0.025% Tube of Ointment 15",
         "Medication Name": "Triamcinolone Acetonide",
         "Strength": "0.00025",
@@ -12190,7 +12190,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "45802006435",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Triamcinolone Acetonide 0.1% Cream 15g",
         "Medication Name": "Triamcinolone Acetonide",
         "Strength": "0.001",
@@ -12207,7 +12207,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "45802005536",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Triamcinolone Acetonide 0.1% Ointment 80g",
         "Medication Name": "Triamcinolone Acetonide",
         "Strength": "0.001",
@@ -12224,7 +12224,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "65862010701",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Zidovudine 100mg Capsule",
         "Medication Name": "Zidovudine",
         "Strength": "100mg",
@@ -12241,7 +12241,7 @@ const localMedicationList = [
     },
     {
         "Representative Product SKU": "31722050960",
-        "plans included": "5$,10$",
+        "plans included": "10$",
         "Label": "Zidovudine 300mg Tablet",
         "Medication Name": "Zidovudine",
         "Strength": "300mg",

@@ -92,7 +92,8 @@ const MedicineDetails = () => {
     if (medDetails === null)
         return (
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
-                <h1>loading...</h1>
+                <div className="spinner-border" role="status">
+                </div>
             </div>
         );
 
@@ -108,7 +109,7 @@ const MedicineDetails = () => {
             <DynamicHead title={"Pomegranate Medicine"} />
             <div className="container py-lg-5 pt-5 pb-3">
                 <div className="row">
-                    <div className="col-lg-6 col-md-6 col-12 px-0 pt-2">
+                    <div className="col-lg-6 col-md-6 col-12 px-lg-0 pt-2">
                         <h2 className={"maroon"}>{medDetails[0].medication_name}</h2>
                         <div className="row py-3">
                             <div className="col-auto">
@@ -120,7 +121,7 @@ const MedicineDetails = () => {
                             <div className="col-auto">
                                 <p>
                                     <FaMoneyBill size={30} color={'#D31A53'} style={{ borderRadius:100, backgroundColor:'#FBE8E7', padding:"2%" }} />
-                                    <span style={{ fontSize:15 }} className={"text-muted"}> Included with {(includedPlan !== null && includedPlan !== undefined) && includedPlan['plans included'] === '5$,10$' ? '$5 and $10 Copay' : '$5 Copay'}</span>
+                                    <span style={{ fontSize:15 }} className={"text-muted"}> Included with {(includedPlan !== null && includedPlan !== undefined) && includedPlan['plans included'] === '5$,10$' ? '$5 and $10 Copay' : '$10 Copay'}</span>
                                 </p>
                             </div>
                         </div>
