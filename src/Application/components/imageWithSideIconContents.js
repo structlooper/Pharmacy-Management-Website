@@ -20,9 +20,9 @@ const ImageWithSideIconContents = ({ headingHighlight=null, heading=null, conten
             </div>
 
 
-            <a href={"#"} className=" me-2 me-lg-0 btn btn-maroon mt-2 mt-lg-0">Get Started</a>
+            <a href={"#plans"} className=" me-2 me-lg-0 btn btn-maroon mt-2 mt-lg-0 p-2-5">Get Started</a>
         </div>
-        <div className={"col-lg-6 py-3 my-auto d-flex justify-content-center "+(contentListing == 1 && "order-lg-first")}>
+        <div className={"col-lg-6 py-3 my-auto d-flex justify-content-start "+(contentListing == 1 && "order-lg-first")}>
             {isNotNull(ImageData) && <img src={ImageData.url} alt={ImageData.altText} height="500" width="550" className="img-fluid" style={{ borderRadius:10 }} />}
         </div>
     </div>
