@@ -7,7 +7,7 @@ const SearchBox = () => {
     const [query, setQuery] = useState('');
     const [suggestions, setSuggestions] = useState([]);
     const navigate = useNavigate();
-   
+
 
 
 
@@ -27,7 +27,7 @@ const handleInputChange = (e) => {
     const handleSuggestionClick = (suggestion) => {
         setQuery(suggestion);
         setSuggestions([]);
-        navigate(`/medicineDetails/${suggestion['Label']}`);
+        navigate(`/medicineDetails/${suggestion['Representative Product SKU']}`);
     };
 
     return (
