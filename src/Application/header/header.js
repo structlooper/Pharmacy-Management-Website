@@ -68,8 +68,8 @@ function Header() {
                             <Nav.Link href="https://joinpomegranate.com/contact-us/">Contact Us</Nav.Link>
                         </Nav>
                         <Nav className="ms-auto">
-                            <button className=" me-2 btn btn-outline-maroon">Member Login</button>
-                            <button className=" me-2 me-lg-0 btn btn-maroon mt-2 mt-lg-0">Get Started</button>
+                            <a href={"https://phr.charmtracker.com/login.sas?FACILITY_ID=3a3047be28b32bf917742bc2eb330fe2af97a3fb48399b0e98ee2e5ce9d5cc8ac81b440bc8a53a00"} className=" me-2 btn btn-outline-maroon">Member Login</a>
+                            <a href={"https://joinpomegranate.com/membership/"} className=" me-2 me-lg-0 btn btn-maroon mt-2 mt-lg-0">Get Started</a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
