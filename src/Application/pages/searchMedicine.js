@@ -12,20 +12,20 @@ const SearchMedicine = () => {
                 <section className="container text-lg-center" style={{paddingTop: "5%", paddingBottom: "9%"}}>
                     <div className="row justify-content-lg-center align-items-end">
                         <div className="col-lg-2 col-md-auto col-sm-12"/>
-                        <div className="col-lg-8 col-md-9 col-sm-12">
+                        <div className="col-lg-7 col-md-9 col-sm-12">
                             <h6 className="maroon">IN COLLABORATION WITH</h6>
                             <img src={require('../asserts/banner.png')} alt="banner" className="img-fluid my-lg-5 my-3" width={300}
                                  height={100}/>
-                            <h1 className={"mt-3 maroon w-res-75 mx-auto"}>Affordable medication at the lowest possible
-                                price</h1>
+                            <h2 className={"mt-3 maroon w-res-75 mx-auto"}>Affordable medication at the lowest possible
+                                price</h2>
                             <p className={" mx-auto pt-4"}>Pomegranate Health, in collaboration with Mark Cuban Cost
                                 Plug Drug Company, offers hundreds of common (and often life-saving) medications at the
                                 lowest possible prices, conveniently shipped directly to your door</p>
                             <a href={"#plans"} className=" me-2 me-lg-0 btn btn-maroon mt-3 p-2-5">Get Started</a>
                         </div>
-                        <div className="col hide-on-mobile">
-                            <img src={require('../asserts/medication.png')} alt="medication" className={"img-fluid"}
-                                 width={250} height={800}/>
+                        <div className="col-auto hide-on-mobile hide-on-tab">
+                            <img src={require('../asserts/medication.png')} alt="medication"
+                                 width={250} height={320} className={"img-fluid"}/>
                         </div>
                     </div>
                 </section>

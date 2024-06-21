@@ -27,7 +27,7 @@ const handleInputChange = (e) => {
     const handleSuggestionClick = (suggestion) => {
         setQuery(suggestion['label']);
         setSuggestions([]);
-        window.location.assign(`/medicineDetails/${suggestion['Representative Product SKU']}`);
+        navigate(`/pharmacy/medicineDetails/${suggestion['Representative Product SKU']}`);
 
         // navigate(`/medicineDetails/${suggestion['Representative Product SKU']}`);
     };
