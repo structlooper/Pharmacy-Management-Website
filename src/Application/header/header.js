@@ -19,7 +19,7 @@ function Header() {
                             width="189"
                             height="29"
                             src="https://joinpomegranate.com/wp-content/uploads/2023/07/Logo_Red.svg"
-
+                            className={"ms-lg-0 ms-md-4 ms-1"}
                             alt=""
                         />
                     </Navbar.Brand>
@@ -55,6 +55,9 @@ function Header() {
                                 </NavDropdown.Item>
                                 <NavDropdown.Item href="https://joinpomegranate.com/mental-health/">
                                     Mental Health
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="https://joinpomegranate.com/pharmacy/">
+                                    Pharmacy
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Resources" id="resources" className="custom-dropdown-menu">

@@ -50,10 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-orange{
     background-color: #FF6666 ;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    padding-left: 8%;
-    padding-right: 8%;
     color: white;
 }
 .p-2-5{
@@ -64,6 +60,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-maroon:hover{
     background-color: #84012A ;
+    color: white;
+}
+.btn-orange:hover{
+    background-color: #FF6666 ;
     color: white;
 }
 .btn-black{
@@ -169,7 +169,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 990px) {
-
+    .hide-on-tab {
+        display: none;
+    }
     .show_mobile_screen {
         display: inline;
     }

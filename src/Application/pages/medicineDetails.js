@@ -5,26 +5,47 @@ import ImageWithSideIconContents from "../components/imageWithSideIconContents";
 import {FaMoneyBill, FaPrescription} from "react-icons/fa";
 import localMedicationList from "../utils/localMedicationList";
 import DynamicHead from "../utils/DynamicHead";
+import {bindState} from "../utils/globalFunctions";
 
 const MedicineDetails = () => {
     const { suggestion } = useParams();
-    const [medDetails, setMedDetails] = useState(null);
+    const [MedLIstFromServer, setMedLIstFromServer] = useState(null);
     const [includedPlan, setIncludedPlan] = useState(null);
     const [selectedForm, setSelectedForm] = useState(null);
+    const [selectedStrength, setSelectedStrength] = useState(null);
+    const [selectedCount, setSelectedCount] = useState(null);
+    const [selectedMedicinePrice, setSelectedMedicinePrice] = useState(null);
+    const [selectedMedicineName, setSelectedMedicineName] = useState(null);
     const [filteredStrength, setFilteredStrength] = useState(null);
+    const [initialTriggerDone, setInitialTriggerDone] = useState(false);
 
     React.useEffect(() => {
         getMedicationNameByThirdPartyApi().then(res => getMedicationFromThirdPartyApi(res).then(final => {
-            setMedDetails(final)
+            setMedLIstFromServer(final)
             setIncludedPlan(localMedicationList.find(localMed => localMed['Representative Product SKU'] === final[0]?.ndc || ''))
             setSelectedForm(final[0]?.form || null)
+            setSelectedStrength(final[0]?.strength || null)
+            setSelectedCount(getQuantityUnitMeasureByPillNoPill(final[0]) ? "30 Count" : "1 Count")
+            setSelectedMedicineName(final[0].medication_name)
+            setSelectedMedicinePrice('$'+(parseFloat(final[0].requested_quote.replace("$","")) * (getQuantityUnitMeasureByPillNoPill(final[0]) ? 30 : 1)).toFixed(2))
+
         }))
     },[])
 
     React.useEffect(()=>{
-        if (medDetails !== null)
-            setFilteredStrength(medDetails.filter(f => f.form === selectedForm))
+        if (MedLIstFromServer !== null) {
+            const filterMedicineListByForm = MedLIstFromServer.filter(f => f.form === selectedForm)
+            setFilteredStrength(filterMedicineListByForm)
+            if (initialTriggerDone){
+                setSelectedStrength(filterMedicineListByForm[0]?.strength || null)
+                setSelectedCount(getQuantityUnitMeasureByPillNoPill(filterMedicineListByForm[0]) ? "30 Count" : "1 Count")
+                getMedicationFromThirdPartyApiUsingSelectionData(filterMedicineListByForm[0]?.strength,(getQuantityUnitMeasureByPillNoPill(filterMedicineListByForm[0])?"30 Count" : "1 Count"))
+            }
+        setInitialTriggerDone(true)
+        }
     },[selectedForm])
+
+
 
 
 
@@ -39,7 +60,7 @@ const MedicineDetails = () => {
               fetch("https://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?ndc="+suggestion, requestOptions)
                 .then((response) => response.json())
                 .then((result) => {
-                    resolve(result.results[0].medication_name);
+                    resolve(result.results[0]);
                 })
                 .catch((error) => {
                     console.error(error)
@@ -48,17 +69,25 @@ const MedicineDetails = () => {
         })
 
     }
+    const getQuantityUnitMeasureByPillNoPill = (medication) => medication.pill_nonpill.toLowerCase() === "pill";
 
-    const getMedicationFromThirdPartyApi = (medNameByNDC) => {
+    const getMedicationFromThirdPartyApi = (medDetails) => {
         return new Promise(resolve => {
             const requestOptions = {
                 method: "GET",
                 redirect: "follow"
             };
 
-            fetch("https://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?medication_name="+medNameByNDC, requestOptions)
+            const url = "http://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?medication_name="+medDetails.medication_name+"&quantity_units=1";
+
+
+            console.log(medDetails)
+            console.log(url)
+
+            fetch(url, requestOptions)
                 .then((response) => response.json())
                 .then((result) => {
+                    // console.log(result)
                     resolve(result.results);
                 })
                 .catch((error) => {
@@ -68,15 +97,42 @@ const MedicineDetails = () => {
         })
 
     }
+    const getMedicationFromThirdPartyApiUsingSelectionData = (strength, count) => {
+            const requestOptions = {
+                method: "GET",
+                redirect: "follow"
+            };
 
-    const BadgeTitleContent = ({ title, points, selectable=false }) => {
+            const url = "http://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?medication_name="+selectedMedicineName+"&strength="+strength+"&quantity_units="+count.replace('Count','')+"";
+
+            fetch(url, requestOptions)
+                .then((response) => response.json())
+                .then((result) => {
+                    setSelectedMedicinePrice(result.results[0].requested_quote)
+                })
+                .catch((error) => {
+                    console.error(error)
+                });
+    }
+
+    const BadgeTitleContent = ({ title, points, selectable=false, selectableState, badgeType = 'form' }) => {
         return  <div className={"mt-4"}>
             <h6 style={{ color:'#808080', fontSize:15 }}>{title}</h6>
             <div className="row"  >
                 {
                     points.map((point,index) =>  <div key={index} className="col-auto mt-2">
-                        <div className={"text-center maroon "+ (selectable ? (point === selectedForm ? 'p-badge-selected' : 'p-badge') : 'p-badge')}
-                             style={selectable ? { cursor: 'pointer' } : {}} onClick={()=>selectable ? setSelectedForm(point) :{}}>
+                        <div className={"text-center maroon "+ (selectable ? (point === selectableState.state ? 'p-badge-selected' : 'p-badge') : 'p-badge')}
+                             style={selectable ? { cursor: 'pointer' } : {}} onClick={()=> {
+                            if(selectable){
+                                selectableState.setState(point)
+                                if (badgeType === 'Strength')
+                                    getMedicationFromThirdPartyApiUsingSelectionData(point,selectedCount)
+                                else if (badgeType === 'Count')
+                                    getMedicationFromThirdPartyApiUsingSelectionData(selectedStrength,point)
+
+
+                            }
+                        }}>
                             {point}
                         </div>
                     </div>)
@@ -89,7 +145,7 @@ const MedicineDetails = () => {
         </div>
     }
 
-    if (medDetails === null)
+    if (MedLIstFromServer === null)
         return (
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
                 <div className="spinner-border" role="status">
@@ -97,7 +153,7 @@ const MedicineDetails = () => {
             </div>
         );
 
-    if(medDetails.length === 0)
+    if(MedLIstFromServer.length === 0)
         return (
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
                 <h1>No Medicine Found!!</h1>
@@ -110,7 +166,7 @@ const MedicineDetails = () => {
             <div className="container py-lg-5 pt-5 pb-3">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-12 px-lg-0 pt-2">
-                        <h2 className={"maroon"}>{medDetails[0].medication_name}</h2>
+                        <h2 className={"maroon"}>{selectedMedicineName}</h2>
                         <div className="row py-3">
                             <div className="col-auto">
                                 <p>
@@ -142,20 +198,21 @@ const MedicineDetails = () => {
                     <div className="col-lg-6 col-md-6 col-12 pt-5 pt-lg-0 pt-md-0">
                         <div className="card p-4 py-5">
                             <h4 className={"maroon"}>
-                                {medDetails[0].medication_name}
+                                {selectedMedicineName}
                             </h4>
 
-                            <ul className="horizontal-list mb-0">
-                                <li>{filteredStrength !== null ? filteredStrength[0].form : medDetails[0].form}</li>
+                            <ul className="horizontal-list ">
+                                <li>{selectedForm}</li>
                                 <li>•</li>
-                                <li>{filteredStrength !== null ? filteredStrength[0].strength : medDetails[0].strength}</li>
+                                <li>{selectedStrength}</li>
                                 <li>•</li>
-                                <li>{filteredStrength !== null ? ((filteredStrength[0].pill_nonpill).toLowerCase() === "pill" ? '30 count' : '1 count') : ((medDetails[0].pill_nonpill).toLowerCase() === "pill" ? '30 count' : '1 count')}</li>
+                                <li>{selectedCount}</li>
                             </ul>
 
+                            <h2>{selectedMedicinePrice}</h2>
                             <hr className={"mb-0"}/>
-                            <BadgeTitleContent title={"Form"} points={[...new Set(medDetails.map(med => med.form))]} selectable={true}  />
-                            <BadgeTitleContent title={"Strength"} points={filteredStrength !== null ? [...new Set(filteredStrength.map(med => med.strength))] : []} />
+                            <BadgeTitleContent title={"Form"} points={[...new Set(MedLIstFromServer.map(med => med.form))]} selectable={true} selectableState={bindState(selectedForm,setSelectedForm)}  />
+                            <BadgeTitleContent title={"Strength"} points={filteredStrength !== null ? [...new Set(filteredStrength.map(med => med.strength))] : []} selectable={true} selectableState={bindState(selectedStrength,setSelectedStrength)} badgeType={"Strength"} />
                             <BadgeTitleContent title={"Count"} points={filteredStrength !== null ? ((filteredStrength[0].pill_nonpill).toLowerCase() === "pill" ? [
                                 '30 Count',
                                 '60 Count',
@@ -164,7 +221,7 @@ const MedicineDetails = () => {
                                 '1 Count',
                                 '2 Count',
                                 '3 Count'
-                            ] ): []} />
+                            ] ): []} selectable={true} selectableState={bindState(selectedCount, setSelectedCount)} badgeType={"Count"} />
 
                         </div>
                     </div>

@@ -3,17 +3,44 @@ import {FaArrowRight, FaFacebook, FaInstagram, FaLinkedin, FaTiktok} from "react
 import {FaThreads} from "react-icons/fa6";
 
 const Footer = () => {
-    React.useEffect(() => {
-        const script = document.createElement('script');
-        script.src = "https://static.legitscript.com/seals/22698071.js"; // Updated to HTTPS
-        script.async = true;
-        script.onload = () => {
-            console.log('Script loaded and ready');
-        };
-        document.body.appendChild(script);
+    const [isScriptLoaded, setIsScriptLoaded] = React.useState(false);
 
+    React.useEffect(() => {
+        const loadScript = (src, id, callback) => {
+            if (document.getElementById(id)) {
+                callback();
+                return;
+            }
+            const script = document.createElement('script');
+            script.src = src;
+            script.id = id;
+            script.async = true;
+            script.onload = callback;
+            document.body.appendChild(script);
+        };
+
+        // Function to inject the seal content
+        const injectSealContent = () => {
+            const sealContainer = document.getElementById('legitScriptSealContainer');
+            if (sealContainer) {
+                sealContainer.innerHTML = `
+          <a href="https://www.legitscript.com/websites/?checker_keywords=joinpomegranate.com" target="_blank">
+            <img src="https://static.legitscript.com/seals/22698071.png" alt="LegitScript Seal"/>
+          </a>
+        `;
+                setIsScriptLoaded(true);
+            }
+        };
+
+        // Load the LegitScript seal script
+        loadScript('https://static.legitscript.com/seals/22698071.js', 'legitScriptSealScript', injectSealContent);
+
+        // Cleanup function to remove the script when the component unmounts
         return () => {
-            document.body.removeChild(script);
+            const script = document.getElementById('legitScriptSealScript');
+            if (script) {
+                document.body.removeChild(script);
+            }
         };
     }, []);
     return (
@@ -95,13 +122,8 @@ const Footer = () => {
                         <a
                             href="tel:813-419-1189" className={"theme-anchor"}>813-419-1189</a>
                     </h6>
-                    <div className={"mt-4 mt-lg-0"}>
-                        <img src={require("../asserts/22698071.png")} width="140" height="140" alt="badge" className={"img-fluid"} />
-
-                    </div>
-                    <div id="legitscript-seal">
-                        {/* The badge script will insert content here */}
-                    </div>
+                    <div id="legitScriptSealContainer"></div>
+                    {!isScriptLoaded && <p>Loading seal...</p>}
                 </div>
 
 
