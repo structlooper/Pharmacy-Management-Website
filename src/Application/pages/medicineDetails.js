@@ -78,7 +78,7 @@ const MedicineDetails = () => {
                 redirect: "follow"
             };
 
-            const url = "http://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?medication_name="+medDetails.medication_name+"&quantity_units=1";
+            const url = "https://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?medication_name="+medDetails.medication_name+"&quantity_units=1";
 
 
             console.log(medDetails)
@@ -103,7 +103,7 @@ const MedicineDetails = () => {
                 redirect: "follow"
             };
 
-            const url = "http://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?medication_name="+selectedMedicineName+"&strength="+strength+"&quantity_units="+count.replace('Count','')+"";
+            const url = "https://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?medication_name="+selectedMedicineName+"&strength="+strength+"&quantity_units="+count.replace('Count','')+"";
 
             fetch(url, requestOptions)
                 .then((response) => response.json())
