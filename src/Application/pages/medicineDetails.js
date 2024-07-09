@@ -26,8 +26,10 @@ const MedicineDetails = () => {
             setSelectedForm(final[0]?.form || null)
             setSelectedStrength(final[0]?.strength || null)
             setSelectedCount(getQuantityUnitMeasureByPillNoPill(final[0]) ? "30 Count" : "1 Count")
-            setSelectedMedicineName(final[0].medication_name)
-            setSelectedMedicinePrice('$'+(parseFloat(final[0].requested_quote.replace("$","")) * (getQuantityUnitMeasureByPillNoPill(final[0]) ? 30 : 1)).toFixed(2))
+            setSelectedMedicineName(final[0]?.medication_name || null)
+            setSelectedMedicinePrice(final[0].requested_quote)
+
+            // setSelectedMedicinePrice(final[0] !== undefined ? '$'+(parseFloat(final[0].requested_quote.replace("$","")) * (getQuantityUnitMeasureByPillNoPill(final[0]) ? 30 : 1)).toFixed(2) : null)
 
         }))
     },[])
@@ -69,16 +71,17 @@ const MedicineDetails = () => {
         })
 
     }
-    const getQuantityUnitMeasureByPillNoPill = (medication) => medication.pill_nonpill.toLowerCase() === "pill";
+    const getQuantityUnitMeasureByPillNoPill = (medication) => medication !== undefined ? medication.pill_nonpill.toLowerCase() === "pill" : false;
 
     const getMedicationFromThirdPartyApi = (medDetails) => {
-        return new Promise(resolve => {
+        if(medDetails !== undefined)
+            return new Promise(resolve => {
             const requestOptions = {
                 method: "GET",
                 redirect: "follow"
             };
 
-            const url = "https://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?medication_name="+medDetails.medication_name+"&quantity_units=1";
+            const url = "https://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main?medication_name="+medDetails.medication_name+"&quantity_units="+(getQuantityUnitMeasureByPillNoPill(medDetails) ? "30" : "1");
 
 
             console.log(medDetails)
@@ -87,7 +90,7 @@ const MedicineDetails = () => {
             fetch(url, requestOptions)
                 .then((response) => response.json())
                 .then((result) => {
-                    // console.log(result)
+                    console.log(result)
                     resolve(result.results);
                 })
                 .catch((error) => {
@@ -108,7 +111,7 @@ const MedicineDetails = () => {
             fetch(url, requestOptions)
                 .then((response) => response.json())
                 .then((result) => {
-                    setSelectedMedicinePrice(result.results[0].requested_quote)
+                    setSelectedMedicinePrice(result.results[0]?.requested_quote || null)
                 })
                 .catch((error) => {
                     console.error(error)
