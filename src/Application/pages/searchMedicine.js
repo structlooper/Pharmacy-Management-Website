@@ -19,7 +19,7 @@ const SearchMedicine = () => {
                             <h2 className={"mt-3 maroon w-res-75 mx-auto"}>Affordable medication at the lowest possible
                                 price</h2>
                             <p className={" mx-auto pt-4"}>Pomegranate Health, in collaboration with Mark Cuban Cost
-                                Plug Drug Company, offers hundreds of common (and often life-saving) medications at the
+                                Plus Drug Company, offers hundreds of common (and often life-saving) medications at the
                                 lowest possible prices, conveniently shipped directly to your door</p>
                             <a href={"#plans"} className=" me-2 me-lg-0 btn btn-maroon mt-3 p-2-5">Get Started</a>
                         </div>
@@ -62,5 +62,7 @@ const SearchMedicine = () => {
         </section>
     );
 };
+
+
 
 export default SearchMedicine;

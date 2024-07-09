@@ -12,8 +12,14 @@ const OurPlans = ({ planMedication = 'both' }) => {
                          style={{backgroundColor: '#ECF7FE'}}>
                         <h1 className={"text-dark"}>$10 Copay</h1>
                         <p>Top 2500 generic medication plan</p>
-                        <div className="">
-                            <button className=" me-2 me-lg-0 btn btn-orange mt-2 mt-lg-0">Pay Now</button>
+                        <div className="row ">
+                            <div className="col-auto ">
+                                <a href={"https://pay.joinpomegranate.com/b/8wM03i1Avbw4cJqfZa"} target={"_blank"} className=" btn btn-orange px-4">Pay Now</a>
+                            </div>
+                            <div className="col-auto mt-2 px-0">
+                                <p className={"fw-bold"} style={{ fontSize:14 }}>
+                                    *Active membership required</p>
+                            </div>
 
                         </div>
                     </div>
@@ -29,9 +35,15 @@ const OurPlans = ({ planMedication = 'both' }) => {
                          style={{backgroundColor: '#F9F3FF'}}>
                         <h1 className={"text-dark"}>$5 Copay</h1>
                         <p>Top 500 generic medication plan</p>
-                        <div >
-                            <p className={"fw-bold"} style={{ fontSize:14 }}><a href={"https://pay.joinpomegranate.com/b/3cs4jyenhgQo7p6dR1"} className=" me-2 me-lg-0 btn btn-orange mt-2 mt-lg-0" target={"_blank"}>Pay Now</a>
-                                &nbsp;&nbsp;&nbsp;*Active membership required</p>
+                        <div className="row ">
+                            <div className="col-auto ">
+                                <a href={"https://pay.joinpomegranate.com/b/3cs4jyenhgQo7p6dR1"} className=" me-2 me-lg-0 btn btn-orange px-4" target={"_blank"}>Pay Now</a>
+                            </div>
+                            <div className="col-auto mt-2 px-0">
+                                <p className={"fw-bold"} style={{ fontSize:14 }}>
+                                    *Active membership required</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -40,9 +52,15 @@ const OurPlans = ({ planMedication = 'both' }) => {
                          style={{backgroundColor: '#ECF7FE'}}>
                         <h1 className={"text-dark"}>$10 Copay</h1>
                         <p>Top 2500 generic medication plan</p>
-                        <div className="">
-                            <p className={"fw-bold"} style={{ fontSize:14 }}><a href={"https://pay.joinpomegranate.com/b/8wM03i1Avbw4cJqfZa"} target={"_blank"} className=" me-2 me-lg-0 btn btn-orange mt-2 mt-lg-0">Pay Now</a>
-                                &nbsp;&nbsp;&nbsp;*Active membership required</p>
+                        <div className="row ">
+                            <div className="col-auto ">
+                                <a href={"https://pay.joinpomegranate.com/b/8wM03i1Avbw4cJqfZa"} target={"_blank"} className=" btn btn-orange px-4">Pay Now</a>
+                            </div>
+                            <div className="col-auto mt-2 px-0">
+                                <p className={"fw-bold"} style={{ fontSize:14 }}>
+                                    *Active membership required</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -56,9 +74,15 @@ const OurPlans = ({ planMedication = 'both' }) => {
                          style={{backgroundColor: '#F9F3FF'}}>
                         <h1 className={"text-dark"}>$5 Copay</h1>
                         <p>Top 500 generic medication plan</p>
-                        <div >
-                            <p className={"fw-bold"} style={{ fontSize:14 }}><a href={"https://pay.joinpomegranate.com/b/3cs4jyenhgQo7p6dR1"} className=" me-2 me-lg-0 btn btn-orange mt-2 mt-lg-0" target={"_blank"}>Pay Now</a>
-                                &nbsp;&nbsp;&nbsp;*Active membership required</p>
+                        <div className="row ">
+                            <div className="col-auto ">
+                                <a href={"https://pay.joinpomegranate.com/b/3cs4jyenhgQo7p6dR1"} className=" me-2 me-lg-0 btn btn-orange px-4" target={"_blank"}>Pay Now</a>
+                            </div>
+                            <div className="col-auto mt-2 px-0">
+                                <p className={"fw-bold"} style={{ fontSize:14 }}>
+                                    *Active membership required</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -67,9 +91,15 @@ const OurPlans = ({ planMedication = 'both' }) => {
                          style={{backgroundColor: '#ECF7FE'}}>
                         <h1 className={"text-dark"}>$10 Copay</h1>
                         <p>Top 2500 generic medication plan</p>
-                        <div className="">
-                            <p className={"fw-bold"} style={{ fontSize:14 }}><a href={"https://pay.joinpomegranate.com/b/8wM03i1Avbw4cJqfZa"} target={"_blank"} className=" me-2 me-lg-0 btn btn-orange mt-2 mt-lg-0">Pay Now</a>
-                                &nbsp;&nbsp;&nbsp;*Active membership required</p>
+                        <div className="row ">
+                            <div className="col-auto ">
+                                <a href={"https://pay.joinpomegranate.com/b/8wM03i1Avbw4cJqfZa"} target={"_blank"} className=" btn btn-orange px-4">Pay Now</a>
+                            </div>
+                            <div className="col-auto mt-2 px-0">
+                                <p className={"fw-bold"} style={{ fontSize:14 }}>
+                                    *Active membership required</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
