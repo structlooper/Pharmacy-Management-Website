@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# 💊 Pharmacy Management Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Overview
+This is a **Pharmacy Management System** built with **React**, utilizing the **CostPlusDrugs.com APIs** for **medicine tracking, ordering, and management**.
+- 🏥 **Medicine Inventory Management**
+- 🔍 **Search & Filter Options**
+- 🔗 **Integration with CostPlusDrugs.com API**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ⚡ Getting Started
 
-### `npm start`
+### 1️⃣ **Clone the Repository**
+```sh
+git clone https://github.com/structlooper/Pharmacy-Management-Website.git
+cd Pharmacy-Management-Website
+```
+### 2️⃣ **Install Dependencies**
+```sh
+npm install
+# or
+yarn install
+```
+### 3️⃣ **Set Up Environment Variables**
+```sh
+REACT_APP_API_KEY=your-api-key-here  #KEY NOT REQUIRED
+REACT_APP_BASE_URL=https://api.costplusdrugs.com
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4️⃣ Start the Development Server
+```sh
+npm start
+# or
+yarn start
+```
+### 3️⃣ **Run on iOS (Mac only)**
+```sh
+npx react-native start
+> i
+# or ~ ios
+npx react-native run-ios
 
-### `npm test`
+```
+## 🛠 Deployment
+```shell
+npm run build
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# ⚛️ **Troubleshooting**
 
-### `npm run build`
+| Issue                      | Solution                                                                                      |  
+|----------------------------|-----------------------------------------------------------------------------------------------|  
+| App crashes on start | Run npm install and restart the server.                       |  
+| CORS errors        | Enable CORS in your API settings. or run on localhost:3000                                           |  
+| Medicine Not show            | API Connection Should be checked.                                                     |  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **📜 License**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/licenses/MIT) file for details.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **Contributing**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/structlooper/Pharmacy-Management-Website/issues).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## **📧 Contact**
 
-## Learn More
+For support, feedback, or contributions, reach out via GitHub: [structlooper](https://github.com/structlooper).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
